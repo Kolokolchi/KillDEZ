@@ -1,0 +1,26 @@
+{
+  "tool": "image_gen.imagegen (built-in)",
+  "description": "Photorealistic generated illustrations, not actual client job photographs.",
+  "images": [
+    {
+      "slug": "hot-fog",
+      "file": "images/methods/hot-fog.jpg",
+      "prompt": "Create one photorealistic editorial close-up photograph for a professional pest control service website in Kazakhstan. Landscape 4:3. Realistic professional equipment and credible physical materials, natural daylight, restrained white grey and muted green palette. Clear subject readable at small card size. No text, no logo, no watermark, no collage, no illustration, no graphic overlays. Illustrative scene, not a photograph of a real company's completed job. Thermal fogging outdoors beside the open doorway of an empty service building. Centre frame a professional portable thermal fogger with long stainless steel cylindrical resonator barrel and metal heat shield, compact fuel tank and carrying handle, visibly producing a dense white fog plume away from camera. Only a cropped gloved hand and protective sleeve holding the equipment at the extreme left edge; no face or full person. Tool occupies most of frame; distinguish unmistakably from an electric ULV blower. No fire or flames. No bystanders, no food."
+    },
+    {
+      "slug": "cold-fog",
+      "file": "images/methods/cold-fog.jpg",
+      "prompt": "Create one photorealistic editorial close-up photograph for a professional pest control service website in Kazakhstan. Landscape 4:3. Realistic professional equipment and credible physical materials, natural daylight, restrained white grey and muted green palette. Clear subject readable at small card size. No text, no logo, no watermark, no collage, no illustration, no graphic overlays. Illustrative scene, not a photograph of a real company's completed job. Electric ULV cold fogger in an empty unfurnished commercial room: close-up of a portable professional white tank with blue upper motor housing, top carrying handle, short broad round nozzle, producing a fine light mist into the room. A cropped nitrile gloved hand with protective sleeve on the carrying handle, no face or full person. Equipment in centre occupying most of photograph, natural background softly blurred. No stainless steel thermal barrel, no flames, no heating element, no people in background."
+    },
+    {
+      "slug": "barrier",
+      "file": "images/methods/barrier.jpg",
+      "prompt": "Create one photorealistic editorial close-up photograph for a professional pest control service website in Kazakhstan. Landscape 4:3. Realistic professional equipment and credible physical materials, natural daylight, restrained white grey and muted green palette. Clear subject readable at small card size. No text, no logo, no watermark, no collage, no illustration, no graphic overlays. Illustrative scene, not a photograph of a real company's completed job. Close-up of targeted professional perimeter pest treatment: a cropped nitrile gloved hand holding the trigger of a real stainless-steel pressure-sprayer lance, angled down towards the junction of the floor and skirting board beside a closed doorway. Nozzle close to the skirting, a small controlled fine spray clearly visible directed along the narrow joint. A small pressure-sprayer tank partly visible at edge. Clean neutral empty room. Focus on nozzle and perimeter joint. No face, no full person, no huge fog cloud, no glowing imaginary barriers."
+    },
+    {
+      "slug": "gel",
+      "file": "images/methods/gel.jpg",
+      "prompt": "Create one photorealistic editorial close-up photograph for a professional pest control service website in Kazakhstan. Landscape 4:3. Realistic professional equipment and credible physical materials, natural daylight, restrained white grey and muted green palette. Clear subject readable at small card size. No text, no logo, no watermark, no collage, no illustration, no graphic overlays. Illustrative scene, not a photograph of a real company's completed job. Macro editorial photograph of professional insect gel bait application. A cropped blue nitrile-gloved hand holding a pest-control gel bait applicator syringe with a blunt thin plastic tip, applying a tiny amber gel dot in a sheltered crevice at the base of a kitchen cabinet beside a hinge, away from food-contact surfaces. Clear applicator barrel and plunger visible, focus on tip and tiny gel drop, softly blurred clean cabinet background. No medical needle, no injection, no insects, no food, no face, no full person."
+    }
+  ]
+}

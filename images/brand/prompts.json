@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-08",
+  "tool": "imagegen (built-in)",
+  "reference": "Owner-supplied Image #2: KILL DEZ graffiti concept",
+  "assets": [
+    {
+      "file": "skullbug.png",
+      "web_file": "skullbug.webp",
+      "transparent_background": true,
+      "prompt": "Edit target: attached KILL DEZ graffiti brand reference. Create a single isolated high-resolution transparent PNG of ONLY the insect-skull emblem on the right of this reference, with its black hand-painted round skull, two brilliant red X eyes, two curling insect antennae, black paint drips, surrounding imperfect thick open circular black paint stroke, and the small red graffiti crown above. Preserve the exact rough brush and ink-splatter aesthetic, black #101010 and red #f20b18 only. Remove ALL letters and ALL slogans; no KILL, no DEZ, no NO BUGS, no text whatsoever. Fill most of the square canvas with the skullbug and crown with a little margin so ink speckles are not clipped. Fully transparent background including the interior empty spaces, no white backdrop, no shadow, no glow. This is a nonviolent stylized pest-control brand mascot, not a photoreal skull. Intended as the main hero website artwork on off-white paper."
+    },
+    {
+      "file": "wordmark.png",
+      "web_file": "wordmark.webp",
+      "transparent_background": true,
+      "prompt": "Edit target: the attached KILL DEZ brand logo. Adapt it to a WIDE HORIZONTAL logo lockup for a website header, aspect ratio roughly 3.8:1. Exact main text: 'KILL DEZ', two words on ONE LINE, same energetic hand-painted uppercase brush letters as the reference; KILL in black and DEZ in vivid red. Small vivid red graffiti crown hovering just above KILL, and a small black insect-skull with two red X eyes at the far right, integrated with a loose black circular paint stroke. Retain scratchy edges, spontaneous ink splatters and the reference's grunge streetwear identity, but keep fine scattered paint within a close bounding box. No tagline, no 'NO BUGS', no other text. All letters must be fully readable. Pure transparent background including between glyphs, no white paper, no background rectangle, no shadow. Logo fills canvas closely with a narrow safe margin, a single brand asset only. Flat bold black and red brush paint."
+    },
+    {
+      "file": "social-card.png",
+      "transparent_background": false,
+      "prompt": "Create a wide 1.91:1 horizontal social-link-preview brand poster for KILL DEZ pest control in the exact bold graffiti aesthetic of the attached reference. Warm off-white paper background with subtle dry ink speckles. Center the large exact brush-painted 'KILL DEZ' wordmark: KILL black, DEZ vivid red, small red crown above KILL, black skullbug with red X eyes on the right. Add the exact smaller handwritten black slogan 'NO BUGS. NO B.S.' below with a rough red underline. Only these Latin letters, no other text. Keep the whole composition clean, fully readable, centered with generous empty margins around logo, fully within the canvas. Black, off-white, red only. Make the logo and skullbug unmistakably match the reference. No vehicles, no clothing, no photos, no mockup frame, no 3D, no shadows. This is a flat website Open Graph poster."
+    }
+  ]
+}

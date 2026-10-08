@@ -1,0 +1,998 @@
+/* ==========================================================================
+   Dis Cleaning — Pest Hunter Mini-Game & Sandbox Styles
+   ========================================================================== */
+
+:root {
+  --game-primary: #10b981;
+  --game-primary-dark: #059669;
+  --game-accent: #f59e0b;
+  --game-danger: #ef4444;
+  --game-bg-dark: #0f172a;
+  --game-text: #1e293b;
+  --game-text-light: #f8fafc;
+  --game-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --game-radius: 14px;
+  --game-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.2), 0 8px 10px -6px rgba(0, 0, 0, 0.15);
+}
+
+/* --------------------------------------------------------------------------
+   Floating Game Trigger Button (Crosshair with Fly)
+   -------------------------------------------------------------------------- */
+.pest-trigger-btn {
+  position: fixed;
+  right: 20px;
+  bottom: 154px; /* Stacked right above the QuickContact widget (bottom: 88px + height 54px + 12px) */
+  z-index: 910;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #10b981 0%, #047857 100%);
+  border: 2px solid #ffffff;
+  box-shadow: 0 6px 20px rgba(16, 185, 129, 0.4), 0 2px 6px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  color: #ffffff;
+  outline: none;
+  transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.25s ease, background 0.2s ease;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.pest-trigger-btn:hover {
+  transform: translateY(-3px) scale(1.08);
+  box-shadow: 0 10px 28px rgba(16, 185, 129, 0.55), 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.pest-trigger-btn:active {
+  transform: translateY(1px) scale(0.96);
+}
+
+/* Pulse radar ring */
+.pest-trigger-btn::before {
+  content: "";
+  position: absolute;
+  inset: -6px;
+  border-radius: 50%;
+  border: 2px solid rgba(16, 185, 129, 0.6);
+  opacity: 0;
+  pointer-events: none;
+  animation: pest-pulse 2.8s infinite cubic-bezier(0.24, 0, 0.38, 1);
+}
+
+@keyframes pest-pulse {
+  0% { transform: scale(0.85); opacity: 0.9; }
+  50% { transform: scale(1.35); opacity: 0; }
+  100% { transform: scale(1.35); opacity: 0; }
+}
+
+.pest-trigger-icon-wrap {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pest-trigger-crosshair {
+  width: 32px;
+  height: 32px;
+  stroke: #ffffff;
+  stroke-width: 2;
+  fill: none;
+  transition: transform 0.4s ease;
+}
+
+.pest-trigger-btn:hover .pest-trigger-crosshair {
+  transform: rotate(45deg);
+}
+
+.pest-trigger-mini-fly {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  animation: pest-mini-wobble 1.6s infinite ease-in-out alternate;
+}
+
+@keyframes pest-mini-wobble {
+  0% { transform: translate(-1px, -1px) rotate(-10deg); }
+  50% { transform: translate(1px, 2px) rotate(8deg); }
+  100% { transform: translate(-2px, 1px) rotate(-15deg); }
+}
+
+/* Tooltip badge next to trigger */
+.pest-trigger-badge {
+  position: absolute;
+  right: 66px;
+  white-space: nowrap;
+  background: rgba(15, 23, 42, 0.92);
+  backdrop-filter: blur(8px);
+  color: #ffffff;
+  font-family: var(--game-font);
+  font-size: 13px;
+  font-weight: 600;
+  padding: 6px 14px;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  pointer-events: none;
+  opacity: 0;
+  transform: translateX(10px);
+  transition: opacity 0.25s ease, transform 0.25s ease;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.pest-trigger-badge::after {
+  content: "";
+  position: absolute;
+  right: -5px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-width: 5px 0 5px 6px;
+  border-style: solid;
+  border-color: transparent transparent transparent rgba(15, 23, 42, 0.92);
+}
+
+.pest-trigger-btn:hover .pest-trigger-badge {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+@media (max-width: 767px) {
+  .pest-trigger-btn {
+    right: 14px;
+    bottom: calc(210px + env(safe-area-inset-bottom, 0px));
+    width: 52px;
+    height: 52px;
+  }
+  .pest-trigger-badge {
+    display: none;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Game Overlay Container
+   -------------------------------------------------------------------------- */
+.pest-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  overflow: hidden;
+  background: rgba(15, 23, 42, 0.2);
+  backdrop-filter: blur(1.5px);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: none;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  font-family: var(--game-font);
+}
+
+.pest-overlay.is-active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* Screen shake effect on heavy hits */
+.pest-overlay.is-shaking {
+  animation: pest-shake 0.18s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+}
+
+@keyframes pest-shake {
+  10%, 90% { transform: translate3d(-3px, 0, 0); }
+  20%, 80% { transform: translate3d(5px, -3px, 0); }
+  30%, 50%, 70% { transform: translate3d(-6px, 4px, 0); }
+  40%, 60% { transform: translate3d(6px, -4px, 0); }
+}
+
+/* Custom Swatter Cursor */
+.pest-overlay.cursor-swatter {
+  cursor: crosshair;
+}
+
+.pest-swatter-cursor {
+  position: fixed;
+  pointer-events: none;
+  z-index: 10005;
+  width: 54px;
+  height: 54px;
+  transform: translate(-50%, -50%) rotate(-15deg);
+  transition: transform 0.06s ease-out;
+  transform-origin: 30% 70%;
+  display: none;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .pest-overlay.cursor-swatter .pest-swatter-cursor {
+    display: block;
+  }
+  .pest-overlay.cursor-swatter {
+    cursor: none;
+  }
+}
+
+.pest-swatter-cursor.is-smashing {
+  transform: translate(-50%, -50%) rotate(25deg) scale(0.88);
+}
+
+/* --------------------------------------------------------------------------
+   Top Game HUD
+   -------------------------------------------------------------------------- */
+.pest-hud {
+  position: absolute;
+  top: 18px;
+  left: 50%;
+  transform: translateX(-50%) translateY(-20px);
+  z-index: 10002;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 8px 18px;
+  background: rgba(15, 23, 42, 0.88);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 40px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  color: #ffffff;
+  transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.3s ease;
+  opacity: 0;
+}
+
+.pest-overlay.is-active .pest-hud {
+  transform: translateX(-50%) translateY(0);
+  opacity: 1;
+}
+
+.pest-hud-stat {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.pest-hud-stat svg {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+
+.pest-hud-score {
+  color: #34d399;
+  min-width: 75px;
+}
+
+.pest-hud-combo {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: linear-gradient(135deg, #ef4444 0%, #f59e0b 100%);
+  color: #ffffff;
+  padding: 3px 9px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 800;
+  box-shadow: 0 0 12px rgba(245, 158, 11, 0.6);
+  animation: pest-combo-pop 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+  letter-spacing: 0.5px;
+  margin-left: 2px;
+}
+
+@keyframes pest-combo-pop {
+  0% { transform: scale(0.6); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+/* Boss Alert Banner */
+.pest-boss-alert {
+  position: absolute;
+  top: 76px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10004;
+  background: linear-gradient(135deg, rgba(220, 38, 38, 0.95), rgba(153, 27, 27, 0.95));
+  border: 2px solid #fecaca;
+  color: #ffffff;
+  padding: 10px 22px;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 10px 25px rgba(220, 38, 38, 0.5);
+  animation: pest-boss-alert-anim 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+@keyframes pest-boss-alert-anim {
+  0% { transform: translateX(-50%) translateY(-30px) scale(0.8); opacity: 0; }
+  100% { transform: translateX(-50%) translateY(0) scale(1); opacity: 1; }
+}
+
+.pest-hud-timer {
+  color: #f59e0b;
+  min-width: 60px;
+}
+
+.pest-hud-timer.is-warning {
+  color: #ef4444;
+  animation: pest-blink 0.6s infinite alternate;
+}
+
+@keyframes pest-blink {
+  from { opacity: 1; transform: scale(1); }
+  to { opacity: 0.6; transform: scale(1.1); }
+}
+
+.pest-hud-divider {
+  width: 1px;
+  height: 22px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.pest-hud-btn {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+  border-radius: 20px;
+  padding: 6px 12px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: background 0.2s, transform 0.1s;
+  outline: none;
+}
+
+.pest-hud-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.pest-hud-btn:active {
+  transform: scale(0.96);
+}
+
+.pest-hud-sound-toggle {
+  padding: 6px 10px;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  justify-content: center;
+}
+
+@media (max-width: 600px) {
+  .pest-hud {
+    top: 12px;
+    padding: 6px 12px;
+    gap: 10px;
+    font-size: 13px;
+  }
+  .pest-hud-stat {
+    font-size: 13px;
+    gap: 5px;
+  }
+  .pest-hud-btn-text {
+    display: none;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Insects (Flies and Cockroaches)
+   -------------------------------------------------------------------------- */
+.pest-entity {
+  position: absolute;
+  transform-origin: center center;
+  cursor: pointer;
+  z-index: 10001;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  will-change: transform, left, top;
+}
+
+/* Hitbox padding so mobile users easily hit pests */
+.pest-entity::before {
+  content: "";
+  position: absolute;
+  inset: -14px;
+  border-radius: 50%;
+  background: transparent;
+}
+
+/* FLY */
+.pest-fly {
+  width: 36px;
+  height: 36px;
+}
+
+.pest-fly-wings {
+  transform-origin: 50% 50%;
+  animation: pest-wing-flutter 0.08s infinite alternate ease-in-out;
+}
+
+@keyframes pest-wing-flutter {
+  0% { transform: scaleX(0.7) scaleY(1.05) rotate(-6deg); opacity: 0.9; }
+  100% { transform: scaleX(1.15) scaleY(0.85) rotate(6deg); opacity: 0.5; }
+}
+
+/* COCKROACH */
+.pest-roach {
+  width: 44px;
+  height: 44px;
+}
+
+.pest-roach-legs-left {
+  transform-origin: 40% 50%;
+  animation: pest-legs-crawl-left 0.12s infinite alternate ease-in-out;
+}
+
+.pest-roach-legs-right {
+  transform-origin: 60% 50%;
+  animation: pest-legs-crawl-right 0.12s infinite alternate ease-in-out;
+}
+
+@keyframes pest-legs-crawl-left {
+  0% { transform: rotate(-8deg); }
+  100% { transform: rotate(8deg); }
+}
+
+@keyframes pest-legs-crawl-right {
+  0% { transform: rotate(8deg); }
+  100% { transform: rotate(-8deg); }
+}
+
+.pest-roach-antennae {
+  transform-origin: 50% 15%;
+  animation: pest-antennae-wiggle 0.3s infinite alternate ease-in-out;
+}
+
+@keyframes pest-antennae-wiggle {
+  0% { transform: rotate(-5deg); }
+  100% { transform: rotate(5deg); }
+}
+
+/* BOSS: RAT */
+.pest-rat-wrap {
+  width: 96px;
+  height: 60px;
+}
+
+.pest-rat {
+  width: 96px;
+  height: 60px;
+  transition: filter 0.1s ease;
+  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.4));
+}
+
+.pest-rat.is-damaged {
+  filter: drop-shadow(0 0 14px #ef4444) brightness(1.7) !important;
+  animation: pest-rat-recoil 0.22s ease-out;
+}
+
+@keyframes pest-rat-recoil {
+  0% { transform: scale(1.15) rotate(-6deg); }
+  50% { transform: scale(0.92) rotate(6deg); }
+  100% { transform: scale(1) rotate(0deg); }
+}
+
+.pest-rat-tail {
+  transform-origin: 20% 50%;
+  animation: pest-tail-whip 0.3s infinite alternate ease-in-out;
+}
+
+@keyframes pest-tail-whip {
+  0% { transform: rotate(-18deg); }
+  100% { transform: rotate(18deg); }
+}
+
+.pest-rat-hp-bar {
+  position: absolute;
+  top: -16px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 74px;
+  height: 8px;
+  background: rgba(15, 23, 42, 0.85);
+  border: 1.5px solid #ffffff;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+}
+
+.pest-rat-hp-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #ef4444 0%, #f59e0b 50%, #10b981 100%);
+  width: 100%;
+  transition: width 0.15s ease-out;
+}
+
+.pest-rat-label {
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 11px;
+  font-weight: 800;
+  color: #fca5a5;
+  white-space: nowrap;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.9);
+  letter-spacing: 0.5px;
+  pointer-events: none;
+}
+
+/* POWER-UP: SPRAY CAN («ДИХЛОФОС») */
+.pest-powerup-spray {
+  width: 48px;
+  height: 48px;
+  animation: pest-powerup-float 2.2s infinite ease-in-out alternate;
+  filter: drop-shadow(0 6px 14px rgba(56, 189, 248, 0.6));
+}
+
+@keyframes pest-powerup-float {
+  0% { transform: translateY(-5px) rotate(-6deg); }
+  100% { transform: translateY(6px) rotate(6deg); }
+}
+
+.pest-fog-blast {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at center, rgba(255, 255, 255, 0.75) 0%, rgba(203, 213, 225, 0.45) 55%, transparent 100%);
+  backdrop-filter: blur(5px);
+  z-index: 10003;
+  pointer-events: none;
+  animation: pest-fog-dissolve 1.2s forwards ease-out;
+}
+
+@keyframes pest-fog-dissolve {
+  0% { opacity: 0; transform: scale(0.85); }
+  25% { opacity: 1; transform: scale(1); }
+  100% { opacity: 0; transform: scale(1.1); }
+}
+
+/* --------------------------------------------------------------------------
+   Splat Decal & Popups
+   -------------------------------------------------------------------------- */
+.pest-splat {
+  position: absolute;
+  width: 46px;
+  height: 46px;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 10000;
+  animation: pest-splat-fade 1.8s forwards cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes pest-splat-fade {
+  0% { transform: translate(-50%, -50%) scale(0.5); opacity: 1; }
+  20% { transform: translate(-50%, -50%) scale(1.15); opacity: 0.95; }
+  40% { transform: translate(-50%, -50%) scale(1); opacity: 0.85; }
+  100% { transform: translate(-50%, -50%) scale(0.95); opacity: 0; }
+}
+
+.pest-score-popup {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 10003;
+  font-family: var(--game-font);
+  font-size: 18px;
+  font-weight: 800;
+  color: #10b981;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5), 0 0 2px #ffffff;
+  animation: pest-score-float 0.85s forwards ease-out;
+}
+
+@keyframes pest-score-float {
+  0% { transform: translate(-50%, 0) scale(0.8); opacity: 0; }
+  25% { transform: translate(-50%, -15px) scale(1.25); opacity: 1; }
+  100% { transform: translate(-50%, -40px) scale(1); opacity: 0; }
+}
+
+/* --------------------------------------------------------------------------
+   Game Over Result Modal
+   -------------------------------------------------------------------------- */
+.pest-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 10010;
+  background: rgba(15, 23, 42, 0.7);
+  backdrop-filter: blur(8px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.pest-modal-backdrop.is-open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.pest-card {
+  background: #ffffff;
+  border-radius: 24px;
+  max-width: 440px;
+  width: 100%;
+  padding: 28px;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.35);
+  text-align: center;
+  transform: scale(0.9) translateY(20px);
+  transition: transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
+  font-family: var(--game-font);
+  color: var(--game-text);
+  border: 1px solid rgba(226, 232, 240, 0.8);
+}
+
+.pest-modal-backdrop.is-open .pest-card {
+  transform: scale(1) translateY(0);
+}
+
+.pest-card-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 12px;
+  background: #ecfdf5;
+  color: #059669;
+  border-radius: 16px;
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.pest-card-title {
+  font-size: 24px;
+  font-weight: 800;
+  color: #0f172a;
+  margin: 0 0 6px 0;
+}
+
+.pest-card-subtitle {
+  font-size: 14px;
+  color: #64748b;
+  margin: 0 0 20px 0;
+  line-height: 1.4;
+}
+
+.pest-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.pest-stat-box {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 12px 6px;
+}
+
+.pest-stat-value {
+  font-size: 22px;
+  font-weight: 800;
+  color: #0f172a;
+}
+
+.pest-stat-label {
+  font-size: 11px;
+  font-weight: 600;
+  color: #64748b;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-top: 2px;
+}
+
+/* Promo Card Box */
+.pest-promo-box {
+  background: linear-gradient(135deg, #f0fdf4 0%, #ecfdf5 100%);
+  border: 2px dashed #10b981;
+  border-radius: 16px;
+  padding: 16px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.pest-promo-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.pest-promo-header strong {
+  font-size: 14px;
+  color: #065f46;
+}
+
+.pest-promo-desc {
+  font-size: 12px;
+  color: #047857;
+  margin: 0 0 10px 0;
+  line-height: 1.4;
+}
+
+.pest-code-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  border: 1px solid #a7f3d0;
+  border-radius: 10px;
+  padding: 6px 10px 6px 14px;
+}
+
+.pest-code-text {
+  font-family: monospace;
+  font-size: 16px;
+  font-weight: 800;
+  color: #059669;
+  letter-spacing: 1px;
+}
+
+.pest-copy-btn {
+  background: #10b981;
+  border: none;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.pest-copy-btn:hover {
+  background: #059669;
+}
+
+.pest-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.pest-btn-primary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  padding: 14px;
+  background: #25d366;
+  color: #ffffff;
+  border-radius: 14px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 15px;
+  box-shadow: 0 4px 14px rgba(37, 211, 102, 0.35);
+  border: none;
+  cursor: pointer;
+  transition: transform 0.15s, background 0.15s;
+}
+
+.pest-btn-primary:hover {
+  background: #20ba59;
+  transform: translateY(-2px);
+}
+
+.pest-btn-secondary-row {
+  display: flex;
+  gap: 10px;
+}
+
+.pest-btn-outline {
+  flex: 1;
+  padding: 12px;
+  background: #ffffff;
+  border: 1px solid #cbd5e1;
+  color: #475569;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.pest-btn-outline:hover {
+  background: #f1f5f9;
+  border-color: #94a3b8;
+}
+
+/* --------------------------------------------------------------------------
+   Sandbox Dev / Tuning Control Drawer
+   -------------------------------------------------------------------------- */
+.sandbox-drawer {
+  position: fixed;
+  top: 16px;
+  left: 16px;
+  z-index: 10020;
+  font-family: var(--game-font);
+}
+
+.sandbox-toggle-btn {
+  background: #0f172a;
+  color: #f8fafc;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 30px;
+  padding: 8px 16px;
+  font-size: 13px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s, background 0.2s;
+}
+
+.sandbox-toggle-btn:hover {
+  background: #1e293b;
+  transform: translateY(-2px);
+}
+
+.sandbox-panel {
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 340px;
+  max-height: calc(100vh - 80px);
+  overflow-y: auto;
+  background: rgba(15, 23, 42, 0.95);
+  backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 18px;
+  padding: 20px;
+  color: #e2e8f0;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.45);
+  display: none;
+  animation: sandbox-drawer-open 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.sandbox-panel.is-open {
+  display: block;
+}
+
+@keyframes sandbox-drawer-open {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.sandbox-panel h3 {
+  font-size: 16px;
+  font-weight: 800;
+  color: #38bdf8;
+  margin: 0 0 14px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sandbox-badge {
+  font-size: 10px;
+  background: #38bdf8;
+  color: #0f172a;
+  padding: 2px 6px;
+  border-radius: 6px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+}
+
+.sandbox-control-group {
+  margin-bottom: 14px;
+}
+
+.sandbox-control-group label {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  font-weight: 600;
+  color: #94a3b8;
+  margin-bottom: 5px;
+}
+
+.sandbox-control-group label span {
+  color: #f1f5f9;
+  font-weight: 700;
+}
+
+.sandbox-control-group input[type="range"] {
+  width: 100%;
+  accent-color: #10b981;
+  height: 6px;
+  background: #334155;
+  border-radius: 4px;
+  outline: none;
+}
+
+.sandbox-btn-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.sandbox-btn-sm {
+  background: #1e293b;
+  border: 1px solid #334155;
+  color: #f8fafc;
+  padding: 8px 10px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.sandbox-btn-sm:hover {
+  background: #334155;
+  color: #38bdf8;
+}
+
+.sandbox-btn-sm.btn-danger {
+  border-color: #ef4444;
+  color: #fca5a5;
+}
+
+.sandbox-btn-sm.btn-danger:hover {
+  background: #7f1d1d;
+  color: #ffffff;
+}
+
+.sandbox-viewport-selector {
+  display: flex;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.sandbox-vp-btn {
+  flex: 1;
+  background: #1e293b;
+  border: 1px solid #334155;
+  color: #cbd5e1;
+  padding: 6px 4px;
+  border-radius: 6px;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+.sandbox-vp-btn.is-active {
+  background: #0284c7;
+  border-color: #38bdf8;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+/* Frame container wrapper for simulated device viewports */
+#sandboxViewportWrapper {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+  transition: max-width 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  background: #ffffff;
+}
+
+#sandboxViewportWrapper.vp-tablet {
+  max-width: 768px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.4);
+  border-left: 2px solid #334155;
+  border-right: 2px solid #334155;
+}
+
+#sandboxViewportWrapper.vp-mobile {
+  max-width: 390px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.4);
+  border-left: 2px solid #334155;
+  border-right: 2px solid #334155;
+}

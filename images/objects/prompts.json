@@ -1,0 +1,61 @@
+{
+  "tool": "image_gen.imagegen (built-in)",
+  "description": "11 illustrative Kazakhstan facility category images. No people. JPEG export only; no content edits.",
+  "images": [
+    {
+      "slug": "medicine",
+      "file": "images/objects/medicine-clinic.jpg",
+      "prompt": "Create a photorealistic architectural photograph for a website category card labelled Medical institutions. Landscape 4:3. An unmistakable outpatient medical examination and treatment room in a modern clinic in Kazakhstan, no people. Main subject centre-right: a real medical examination couch with white disposable paper roll, adjustable clinical examination lamp over it, beside it a wheeled ultrasound machine with probe holders and a dark diagnostic screen showing an abstract ultrasound image. On the left a white wall-mounted diagnostic set with blood pressure cuff and otoscope, a clinical stainless steel instrument trolley with neatly arranged sealed supplies, white medical cabinets and a compact handwashing sink in background. White and very pale medical blue surfaces, daylight, credible practical healthcare environment, crisp realistic materials. Wide enough framing that couch, exam lamp and ultrasound are fully visible in a small 4:3 card. No waiting lounge, no reception desk, no salon, no hotel decor, no sofas, no houseplants, no wood slats. No readable text, no logos, no people, no watermark, no collage. Editorial photograph, not graphic illustration. Clearly recognisable as medicine at thumbnail size."
+    },
+    {
+      "slug": "sport",
+      "file": "images/objects/sport.jpg",
+      "prompt": "Generate one photorealistic architectural editorial photograph for a disinfection company's website category card. Landscape 4:3 framing, realistic photographic materials, natural soft bright light, clean balanced composition with the key subject centred and generous framing suitable for cropping to card. Match a consistent series of understated pale cream, light wood and sage interiors. Kazakhstan context without stereotypes. No people, no text, no letters, no watermark, no logo, no collage, no border, no website UI. Illustrative property, not a real client. Scene: Sports facilities: a bright modern fitness gym in Kazakhstan, a few treadmills and strength machines arranged neatly, pale oak and light grey finishes, large daylight windows, clean rubber floor, no people."
+    },
+    {
+      "slug": "leisure",
+      "file": "images/objects/leisure.jpg",
+      "prompt": "Generate one photorealistic architectural editorial photograph for a disinfection company's website category card. Landscape 4:3 framing, realistic photographic materials, natural soft bright light, clean balanced composition with the key subject centred and generous framing suitable for cropping to card. Match a consistent series of understated pale cream, light wood and sage interiors. Kazakhstan context without stereotypes. No people, no text, no letters, no watermark, no logo, no collage, no border, no website UI. Illustrative property, not a real client. Scene: Beauty and leisure services: a refined modern hair salon in Kazakhstan, three styling chairs with tall mirrors, warm oak cabinetry, light cream walls, a wash basin in background, daylight and impeccable realistic cleanliness."
+    },
+    {
+      "slug": "logistics",
+      "file": "images/objects/logistics.jpg",
+      "prompt": "Generate one photorealistic architectural editorial photograph for a disinfection company's website category card. Landscape 4:3 framing, realistic photographic materials, natural soft bright light, clean balanced composition with the key subject centred and generous framing suitable for cropping to card. Match a consistent series of understated pale cream, light wood and sage interiors. Kazakhstan context without stereotypes. No people, no text, no letters, no watermark, no logo, no collage, no border, no website UI. Illustrative property, not a real client. Scene: Transport and logistics facilities: a modern clean distribution warehouse in Kazakhstan, orderly pallet racks with sealed unbranded cartons, wide clean grey aisle, loading dock doors in background, daylight from clerestory windows, no forklifts in foreground."
+    },
+    {
+      "slug": "business",
+      "file": "images/objects/business.jpg",
+      "prompt": "Generate one photorealistic architectural editorial photograph for a disinfection company's website category card. Landscape 4:3 framing, realistic photographic materials, natural soft bright light, clean balanced composition with the key subject centred and generous framing suitable for cropping to card. Match a consistent series of understated pale cream, light wood and sage interiors. Kazakhstan context without stereotypes. No people, no text, no letters, no watermark, no logo, no collage, no border, no website UI. Illustrative property, not a real client. Scene: Offices and business centres: a bright modern coworking office in Almaty, several oak desks with closed unbranded laptops, ergonomic chairs, glass meeting room and indoor plants, soft daylight, muted sage and cream tones, mountain foothills very subtly visible outside."
+    },
+    {
+      "slug": "food",
+      "file": "images/objects/food.jpg",
+      "prompt": "Generate one photorealistic architectural editorial photograph for a disinfection company's website category card. Landscape 4:3 framing, realistic photographic materials, natural soft bright light, clean balanced composition with the key subject centred and generous framing suitable for cropping to card. Match a consistent series of understated pale cream, light wood and sage interiors. Kazakhstan context without stereotypes. No people, no text, no letters, no watermark, no logo, no collage, no border, no website UI. Illustrative property, not a real client. Scene: Food service: a clean inviting contemporary restaurant in Kazakhstan, neatly arranged pale oak dining tables and sage upholstered chairs, small discreet geometric ornament detail in plaster, bright natural daylight, welcoming restrained everyday upscale setting."
+    },
+    {
+      "slug": "retail",
+      "file": "images/objects/retail.jpg",
+      "prompt": "Generate one photorealistic architectural editorial photograph for a disinfection company's website category card. Landscape 4:3 framing, realistic photographic materials, natural soft bright light, clean balanced composition with the key subject centred and generous framing suitable for cropping to card. Match a consistent series of understated pale cream, light wood and sage interiors. Kazakhstan context without stereotypes. No people, no text, no letters, no watermark, no logo, no collage, no border, no website UI. Illustrative property, not a real client. Scene: Retail facilities: a clean modern supermarket interior in Kazakhstan, tidy shelves of unbranded neutral packaging, fresh produce section at one side, broad aisle and subtle checkout area, natural-looking balanced bright lighting, no readable signs."
+    },
+    {
+      "slug": "education",
+      "file": "images/objects/education.jpg",
+      "prompt": "Generate one photorealistic architectural editorial photograph for a disinfection company's website category card. Landscape 4:3 framing, realistic photographic materials, natural soft bright light, clean balanced composition with the key subject centred and generous framing suitable for cropping to card. Match a consistent series of understated pale cream, light wood and sage interiors. Kazakhstan context without stereotypes. No people, no text, no letters, no watermark, no logo, no collage, no border, no website UI. Illustrative property, not a real client. Scene: Children and educational facilities: a bright empty kindergarten classroom in Kazakhstan, child-sized wooden tables and chairs, neatly stored educational toys in low shelves, soft sage and warm cream walls, large sunny windows, calm uncluttered safe-looking interior."
+    },
+    {
+      "slug": "government",
+      "file": "images/objects/government.jpg",
+      "prompt": "Generate one photorealistic architectural editorial photograph for a disinfection company's website category card. Landscape 4:3 framing, realistic photographic materials, natural soft bright light, clean balanced composition with the key subject centred and generous framing suitable for cropping to card. Match a consistent series of understated pale cream, light wood and sage interiors. Kazakhstan context without stereotypes. No people, no text, no letters, no watermark, no logo, no collage, no border, no website UI. Illustrative property, not a real client. Scene: Government institutions: an empty contemporary administrative public service reception hall in Kazakhstan, light stone floor, oak reception desks and orderly waiting chairs, pale walls, glass partitions, no flags, no emblems, no signage, bright daylight, modest credible civic interior."
+    },
+    {
+      "slug": "hospitality",
+      "file": "images/objects/hospitality.jpg",
+      "prompt": "Generate one photorealistic architectural editorial photograph for a disinfection company's website category card. Landscape 4:3 framing, realistic photographic materials, natural soft bright light, clean balanced composition with the key subject centred and generous framing suitable for cropping to card. Match a consistent series of understated pale cream, light wood and sage interiors. Kazakhstan context without stereotypes. No people, no text, no letters, no watermark, no logo, no collage, no border, no website UI. Illustrative property, not a real client. Scene: Hotels and shared accommodation: an immaculate modern hotel guest room in Kazakhstan, neatly made bed with white linen and sage throw, warm oak bedside tables, subtle local geometric textile cushion, wide window with daylight, simple elegant realistic hospitality setting."
+    },
+    {
+      "slug": "other",
+      "file": "images/objects/other.jpg",
+      "prompt": "Generate one photorealistic architectural editorial photograph for a disinfection company's website category card. Landscape 4:3 framing, realistic photographic materials, natural soft bright light, clean balanced composition with the key subject centred and generous framing suitable for cropping to card. Match a consistent series of understated pale cream, light wood and sage interiors. Kazakhstan context without stereotypes. No people, no text, no letters, no watermark, no logo, no collage, no border, no website UI. Illustrative property, not a real client. Scene: Residential and production properties: a clean contemporary apartment living room in Kazakhstan, pale linen sofa, oak coffee table, subtle sage accents, bright daylight, window opening towards distant Almaty foothills, practical calm residential space, not a luxury mansion."
+    }
+  ]
+}

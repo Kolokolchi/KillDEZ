@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /tools/
+Disallow: /tests/
+Disallow: /docs/
+Disallow: /artifacts/
+Disallow: /node_modules/
+Sitemap: https://killdez.kz/sitemap.xml

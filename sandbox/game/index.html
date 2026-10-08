@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Песочница мини-игры — Dis Cleaning</title>
+  <link rel="stylesheet" href="game.css">
+  <style>
+    /* ----------------------------------------------------------------------
+       Mock Dis Cleaning Layout Styles for Sandbox Background
+       ---------------------------------------------------------------------- */
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background-color: #0b1120;
+      color: #1e293b;
+      line-height: 1.5;
+      overflow-x: hidden;
+    }
+
+    /* Sandbox Site Wrapper */
+    .mock-site {
+      background: #ffffff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Mock Header */
+    .mock-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 16px 32px;
+      background: #ffffff;
+      border-bottom: 1px solid #e2e8f0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .mock-logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 20px;
+      font-weight: 800;
+      color: #047857;
+      text-decoration: none;
+    }
+    .mock-logo-badge {
+      background: #10b981;
+      color: #fff;
+      padding: 4px 8px;
+      border-radius: 8px;
+      font-size: 13px;
+    }
+    .mock-nav {
+      display: flex;
+      gap: 24px;
+      list-style: none;
+    }
+    .mock-nav a {
+      color: #475569;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 14px;
+      transition: color 0.15s;
+    }
+    .mock-nav a:hover {
+      color: #047857;
+    }
+    .mock-header-actions {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .mock-phone-btn {
+      color: #047857;
+      font-weight: 700;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .mock-lang {
+      font-size: 13px;
+      font-weight: 700;
+      color: #64748b;
+      background: #f1f5f9;
+      padding: 6px 10px;
+      border-radius: 8px;
+    }
+
+    /* Mock Hero */
+    .mock-hero {
+      padding: 70px 32px 60px;
+      background: radial-gradient(circle at 80% 20%, #ecfdf5 0%, #ffffff 70%);
+      text-align: center;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .mock-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 16px;
+      background: #ecfdf5;
+      color: #047857;
+      border: 1px solid #a7f3d0;
+      border-radius: 20px;
+      font-size: 13px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+    .mock-hero h1 {
+      font-size: 38px;
+      font-weight: 800;
+      color: #0f172a;
+      line-height: 1.25;
+      margin-bottom: 18px;
+    }
+    .mock-hero p {
+      font-size: 17px;
+      color: #475569;
+      margin-bottom: 30px;
+      line-height: 1.6;
+    }
+    .mock-hero-btns {
+      display: flex;
+      justify-content: center;
+      gap: 14px;
+    }
+    .mock-btn-calc {
+      background: #10b981;
+      color: #fff;
+      padding: 14px 28px;
+      border-radius: 12px;
+      font-weight: 700;
+      font-size: 15px;
+      border: none;
+      cursor: pointer;
+      box-shadow: 0 4px 14px rgba(16, 185, 129, 0.35);
+    }
+    .mock-btn-call {
+      background: #f1f5f9;
+      color: #334155;
+      padding: 14px 24px;
+      border-radius: 12px;
+      font-weight: 700;
+      font-size: 15px;
+      border: 1px solid #cbd5e1;
+      cursor: pointer;
+    }
+
+    /* Mock Grid Services */
+    .mock-services {
+      padding: 40px 32px 80px;
+      max-width: 1100px;
+      margin: 0 auto;
+      width: 100%;
+    }
+    .mock-section-title {
+      font-size: 26px;
+      font-weight: 800;
+      margin-bottom: 24px;
+      text-align: center;
+    }
+    .mock-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+    .mock-card {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 16px;
+      padding: 24px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .mock-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+      border-color: #a7f3d0;
+    }
+    .mock-card-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 12px;
+      background: #ecfdf5;
+      color: #047857;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      margin-bottom: 14px;
+    }
+    .mock-card h3 {
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+    .mock-card p {
+      font-size: 14px;
+      color: #64748b;
+      margin-bottom: 16px;
+      line-height: 1.5;
+    }
+    .mock-card-price {
+      font-size: 16px;
+      font-weight: 800;
+      color: #047857;
+    }
+
+    /* Mock Footer */
+    .mock-footer {
+      margin-top: auto;
+      background: #0f172a;
+      color: #94a3b8;
+      padding: 40px 32px;
+      font-size: 14px;
+      text-align: center;
+    }
+    .mock-footer p { margin-bottom: 8px; }
+
+    /* Mock Quick Contact (matches real site) */
+    .mock-quick-contact {
+      position: fixed;
+      right: 20px;
+      bottom: 88px;
+      z-index: 900;
+      width: 54px;
+      height: 54px;
+      border-radius: 50%;
+      background: #10b981;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+      cursor: pointer;
+    }
+    .mock-quick-contact svg {
+      width: 24px;
+      height: 24px;
+    }
+
+    @media (max-width: 767px) {
+      .mock-nav, .mock-header-actions .mock-lang { display: none; }
+      .mock-header { padding: 12px 18px; }
+      .mock-hero { padding: 40px 18px 30px; }
+      .mock-hero h1 { font-size: 26px; }
+      .mock-hero p { font-size: 15px; }
+      .mock-hero-btns { flex-direction: column; }
+      .mock-services { padding: 20px 18px 60px; }
+      .mock-quick-contact {
+        right: 14px;
+        bottom: calc(144px + env(safe-area-inset-bottom, 0px));
+        width: 50px;
+        height: 50px;
+      }
+    }
+
+    #sandboxViewportWrapper.vp-mobile .mock-nav,
+    #sandboxViewportWrapper.vp-mobile .mock-header-actions .mock-lang {
+      display: none;
+    }
+    #sandboxViewportWrapper.vp-mobile .mock-header { padding: 12px 18px; }
+    #sandboxViewportWrapper.vp-mobile .mock-hero { padding: 40px 18px 30px; }
+    #sandboxViewportWrapper.vp-mobile .mock-hero h1 { font-size: 26px; }
+    #sandboxViewportWrapper.vp-mobile .mock-hero p { font-size: 15px; }
+    #sandboxViewportWrapper.vp-mobile .mock-hero-btns { flex-direction: column; }
+    #sandboxViewportWrapper.vp-mobile .mock-services { padding: 20px 18px 60px; }
+    #sandboxViewportWrapper.vp-mobile .mock-quick-contact {
+      right: 14px;
+      bottom: calc(144px + env(safe-area-inset-bottom, 0px));
+      width: 50px;
+      height: 50px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- =======================================================================
+       Sandbox Dev Controls Drawer (Top-Left)
+       ======================================================================= -->
+  <div class="sandbox-drawer">
+    <button class="sandbox-toggle-btn" id="sandboxToggle" type="button" title="Открыть настройки песочницы">
+      <span>⚙️</span> Настройки песочницы
+    </button>
+    <div class="sandbox-panel" id="sandboxPanel">
+      <h3>
+        Параметры игры
+        <span class="sandbox-badge">LAB v1.0</span>
+      </h3>
+
+      <div class="sandbox-control-group">
+        <label>Интервал мух: <span id="valFlyInterval">1.8s</span></label>
+        <input type="range" id="cfgFlyInterval" min="0.4" max="4.0" step="0.2" value="1.8">
+      </div>
+
+      <div class="sandbox-control-group">
+        <label>Интервал тараканов: <span id="valRoachInterval">2.4s</span></label>
+        <input type="range" id="cfgRoachInterval" min="0.6" max="5.0" step="0.2" value="2.4">
+      </div>
+
+      <div class="sandbox-control-group">
+        <label>Лимит вредителей на экране: <span id="valMaxPests">14</span></label>
+        <input type="range" id="cfgMaxPests" min="4" max="30" step="2" value="14">
+      </div>
+
+      <div class="sandbox-control-group">
+        <label>Скорость движения: <span id="valSpeed">1x</span></label>
+        <input type="range" id="cfgSpeed" min="0.2" max="1.6" step="0.1" value="1.0">
+      </div>
+
+      <div class="sandbox-control-group">
+        <label>Длительность раунда: <span id="valDuration">30s</span></label>
+        <input type="range" id="cfgDuration" min="10" max="90" step="5" value="30">
+      </div>
+
+      <div class="sandbox-control-group">
+        <label>HP Крысы-Босса: <span id="valRatHp">5</span></label>
+        <input type="range" id="cfgRatHp" min="2" max="10" step="1" value="5">
+      </div>
+
+      <div class="sandbox-btn-grid">
+        <button class="sandbox-btn-sm" id="sbAddFlies" type="button">+5 Мух</button>
+        <button class="sandbox-btn-sm" id="sbAddRoaches" type="button">+5 Тараканов</button>
+        <button class="sandbox-btn-sm" id="sbSpawnBoss" type="button" style="border-color: #f59e0b; color: #fde047;">🐀 Босс (Крыса)</button>
+        <button class="sandbox-btn-sm" id="sbSpawnSpray" type="button" style="border-color: #38bdf8; color: #7dd3fc;">💨 Дихлофос</button>
+        <button class="sandbox-btn-sm btn-danger" id="sbKillAll" type="button">Раздавить всех</button>
+        <button class="sandbox-btn-sm" id="sbTestModal" type="button">Тест финала</button>
+      </div>
+
+      <div style="margin-top: 14px;">
+        <label style="font-size: 11px; color: #94a3b8; font-weight: 700; text-transform: uppercase;">Симуляция экрана:</label>
+        <div class="sandbox-viewport-selector">
+          <button class="sandbox-vp-btn is-active" data-vp="full" type="button">100%</button>
+          <button class="sandbox-vp-btn" data-vp="tablet" type="button">768px</button>
+          <button class="sandbox-vp-btn" data-vp="mobile" type="button">390px</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- =======================================================================
+       Main Viewport Wrapper (Simulates device viewports if resized)
+       ======================================================================= -->
+  <div id="sandboxViewportWrapper">
+    <div class="mock-site">
+      <!-- Mock Site Header -->
+      <header class="mock-header">
+        <a href="#" class="mock-logo">
+          <span class="mock-logo-badge">DIS</span>
+          Dis Cleaning
+        </a>
+        <ul class="mock-nav">
+          <li><a href="#services">Услуги</a></li>
+          <li><a href="#objects">Объекты</a></li>
+          <li><a href="#prices">Цены</a></li>
+          <li><a href="#guide">Памятка</a></li>
+          <li><a href="#contacts">Контакты</a></li>
+        </ul>
+        <div class="mock-header-actions">
+          <a href="tel:+77076203813" class="mock-phone-btn">+7 707 620 38 13</a>
+          <span class="mock-lang">RU / KZ</span>
+        </div>
+      </header>
+
+      <!-- Mock Site Hero -->
+      <main>
+        <section class="mock-hero">
+          <div class="mock-pill">
+            <span>🛡️</span> Профессиональная дезинсекция в Алматы
+          </div>
+          <h1>Уничтожение клопов, тараканов и вредителей с гарантией</h1>
+          <p>
+            Безопасные сертифицированные препараты IV класса, выезд мастера за 40 минут. 
+            Полное избавление от насекомых в квартирах, ресторанах, складах и офисах.
+          </p>
+          <div class="mock-hero-btns">
+            <button class="mock-btn-calc" type="button">Рассчитать стоимость</button>
+            <button class="mock-btn-call" type="button">Консультация дезинфектора</button>
+          </div>
+        </section>
+
+        <!-- Mock Services Grid -->
+        <section class="mock-services" id="services">
+          <h2 class="mock-section-title">Популярные направления обработки</h2>
+          <div class="mock-grid">
+            <div class="mock-card">
+              <div class="mock-card-icon">🪲</div>
+              <h3>Уничтожение тараканов</h3>
+              <p>Барьерная защита холодным туманом. Препараты без запаха, безопасные для людей и животных.</p>
+              <div class="mock-card-price">от 8 000 ₸</div>
+            </div>
+            <div class="mock-card">
+              <div class="mock-card-icon">🛏️</div>
+              <h3>Уничтожение клопов</h3>
+              <p>Тотальная очистка спальных зон и мебели. Уничтожение взрослых особей и личинок за 1 сеанс.</p>
+              <div class="mock-card-price">от 10 000 ₸</div>
+            </div>
+            <div class="mock-card">
+              <div class="mock-card-icon">🪰</div>
+              <h3>Борьба с мухами и осами</h3>
+              <p>Ликвидация очагов размножения на открытых участках, террасах и пищевых производствах.</p>
+              <div class="mock-card-price">от 9 000 ₸</div>
+            </div>
+            <div class="mock-card">
+              <div class="mock-card-icon">🐀</div>
+              <h3>Дератизация (грызуны)</h3>
+              <p>Комплексная защита от мышей и крыс с установкой приманочных контейнеров по СанПиН.</p>
+              <div class="mock-card-price">от 12 000 ₸</div>
+            </div>
+            <div class="mock-card">
+              <div class="mock-card-icon">🕷️</div>
+              <h3>Пауки и клещи</h3>
+              <p>Акарицидная обработка придомовых территорий, дач и парковых зон долговременного действия.</p>
+              <div class="mock-card-price">от 15 000 ₸</div>
+            </div>
+            <div class="mock-card">
+              <div class="mock-card-icon">🧪</div>
+              <h3>Дезинфекция помещений</h3>
+              <p>Антибактериальная и противовирусная обработка офисов, клиник, заведений общепита.</p>
+              <div class="mock-card-price">от 7 000 ₸</div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- Mock Footer -->
+      <footer class="mock-footer">
+        <p>Dis Cleaning — Экспертная дезинфекция и дезинсекция в Алматы и Алматинской области.</p>
+        <p style="font-size: 12px; color: #64748b;">© 2026 Dis Cleaning. Все права защищены.</p>
+      </footer>
+    </div>
+  </div>
+
+  <!-- =======================================================================
+       Mock QuickContact Floating Button (Phone & WhatsApp)
+       ======================================================================= -->
+  <div class="mock-quick-contact" title="Связаться с нами">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6A19.79 19.79 0 012.12 4.18 2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z" />
+    </svg>
+  </div>
+
+  <!-- =======================================================================
+       Floating Game Trigger Button (Crosshair on Fly)
+       ======================================================================= -->
+  <button class="pest-trigger-btn" id="pestGameTrigger" type="button" aria-label="Поймай вредителя! Начать игру">
+    <div class="pest-trigger-icon-wrap">
+      <!-- Crosshair Reticle -->
+      <svg viewBox="0 0 36 36" class="pest-trigger-crosshair">
+        <circle cx="18" cy="18" r="13" />
+        <line x1="18" y1="1" x2="18" y2="9" />
+        <line x1="18" y1="27" x2="18" y2="35" />
+        <line x1="1" y1="18" x2="9" y2="18" />
+        <line x1="27" y1="18" x2="35" y2="18" />
+        <circle cx="18" cy="18" r="3" fill="#ffffff" />
+      </svg>
+      <!-- Tiny Fly in Crosshair -->
+      <svg viewBox="0 0 24 24" class="pest-trigger-mini-fly">
+        <ellipse cx="12" cy="13" rx="3.5" ry="5.5" fill="#ffffff" />
+        <circle cx="12" cy="7" r="2.5" fill="#ffffff" />
+        <ellipse cx="8" cy="11" rx="4" ry="2" transform="rotate(-30 8 11)" fill="rgba(255, 255, 255, 0.7)" />
+        <ellipse cx="16" cy="11" rx="4" ry="2" transform="rotate(30 16 11)" fill="rgba(255, 255, 255, 0.7)" />
+      </svg>
+    </div>
+    <span class="pest-trigger-badge">Поймай вредителя! 🎯</span>
+  </button>
+
+  <!-- =======================================================================
+       Full-Screen Game Overlay
+       ======================================================================= -->
+  <div class="pest-overlay" id="pestGameOverlay">
+    <!-- Top HUD Bar -->
+    <div class="pest-hud" id="pestGameHud">
+      <!-- Score -->
+      <div class="pest-hud-stat">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="10"></circle>
+          <path d="M12 6v6l4 2"></path>
+        </svg>
+        <span class="pest-hud-timer" id="pestHudTimer">00:30</span>
+      </div>
+
+      <div class="pest-hud-divider"></div>
+
+      <!-- Bug Kills / Score -->
+      <div class="pest-hud-stat">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83" />
+        </svg>
+        <span class="pest-hud-score" id="pestHudScore">0</span>
+        <span class="pest-hud-combo" id="pestHudCombo" style="display:none;">2x 🔥</span>
+      </div>
+
+      <div class="pest-hud-divider"></div>
+
+      <!-- Sound Mute/Unmute Toggle -->
+      <button class="pest-hud-btn pest-hud-sound-toggle" id="pestHudSoundBtn" type="button" title="Звук вкл/выкл">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+          <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+        </svg>
+      </button>
+
+      <!-- Exit Button -->
+      <button class="pest-hud-btn" id="pestHudExitBtn" type="button">
+        <span class="pest-hud-btn-text">Завершить</span> ✕
+      </button>
+    </div>
+
+    <!-- Boss Warning Alert -->
+    <div class="pest-boss-alert" id="pestBossAlert" style="display:none;">
+      <span>⚠️</span> БОСС: ПОЯВИЛАСЬ КРЫСА! 🐀
+    </div>
+  </div>
+
+  <!-- =======================================================================
+       Game Over & Conversion Modal
+       ======================================================================= -->
+  <div class="pest-modal-backdrop" id="pestResultModal">
+    <div class="pest-card">
+      <div class="pest-card-badge">🏆 Миссия выполнена!</div>
+      <h2 class="pest-card-title">Объект зачищен!</h2>
+      <p class="pest-card-subtitle">
+        Отличная реакция! Но вручную избавиться от колонии вредителей невозможно — они размножаются в скрытых полостях.
+      </p>
+
+      <!-- Stats Grid -->
+      <div class="pest-stats-grid">
+        <div class="pest-stat-box">
+          <div class="pest-stat-value" id="pestResScore">0</div>
+          <div class="pest-stat-label">Очки</div>
+        </div>
+        <div class="pest-stat-box">
+          <div class="pest-stat-value" id="pestResFlies">0</div>
+          <div class="pest-stat-label">Мухи</div>
+        </div>
+        <div class="pest-stat-box">
+          <div class="pest-stat-value" id="pestResRoaches">0</div>
+          <div class="pest-stat-label">Тараканы</div>
+        </div>
+        <div class="pest-stat-box">
+          <div class="pest-stat-value" id="pestResRats">0</div>
+          <div class="pest-stat-label">Босс (Крыса)</div>
+        </div>
+      </div>
+
+      <!-- Promo Box Lead Magnet -->
+      <div class="pest-promo-box">
+        <div class="pest-promo-header">
+          <span>🎁</span>
+          <strong>Скидка 10% на дезинсекцию</strong>
+        </div>
+        <p class="pest-promo-desc">
+          Назовите промокод оператору при заказе или отправьте в WhatsApp:
+        </p>
+        <div class="pest-code-row">
+          <span class="pest-code-text" id="pestPromoCode">ЧИСТОТА</span>
+          <button class="pest-copy-btn" id="pestBtnCopyPromo" type="button">Копировать</button>
+        </div>
+      </div>
+
+      <!-- CTAs -->
+      <div class="pest-actions">
+        <a href="https://wa.me/77076203813?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%AF%20%D0%B8%D0%B7%20%D0%B8%D0%B3%D1%80%D1%8B%2C%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B8%D1%82%D1%8C%20%D1%81%D0%BA%D0%B8%D0%B4%D0%BA%D1%83%2010%25%20%D0%BF%D0%BE%20%D0%BF%D1%80%D0%BE%D0%BC%D0%BE%D0%BA%D0%BE%D0%B4%D1%83%20%D0%A7%D0%98%D0%A1%D0%A2%D0%9E%D0%A2%D0%90" target="_blank" rel="noopener noreferrer" class="pest-btn-primary">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 11.5a8.5 8.5 0 01-8.5 8.5 9 9 0 01-4-.9L3 21l1.9-5.5a9 9 0 01-.9-4A8.5 8.5 0 0112.5 3a8.5 8.5 0 018.5 8.5z" />
+          </svg>
+          Получить скидку в WhatsApp
+        </a>
+
+        <div class="pest-btn-secondary-row">
+          <button class="pest-btn-outline" id="pestBtnPlayAgain" type="button">Сыграть ещё</button>
+          <button class="pest-btn-outline" id="pestBtnBackSite" type="button">На сайт</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Game Engine Script -->
+  <script src="game.js?v=3"></script>
+</body>
+</html>

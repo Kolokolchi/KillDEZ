@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Temporary backups
+backup/
+
+# Browser verification output and local customer data
+test-results/
+playwright-report/
+artifacts/
+leads.json
+
+# Next.js build and staged assets
+.next/
+out/
+public/
+*.tsbuildinfo
+next-env.d.ts

@@ -1,0 +1,72 @@
+{
+  "date": "2026-09-29",
+  "browser": "Chromium 153.0.8010.12",
+  "height": 900,
+  "fullPage": true,
+  "language": "ru",
+  "reducedMotion": "reduce",
+  "externalRequests": "blocked (including Google Fonts and analytics); system fallback font",
+  "storage": "fresh isolated browser contexts; admin API mocked empty, no customer data",
+  "captures": [
+    {
+      "url": "/",
+      "width": 390,
+      "file": "home-390.png"
+    },
+    {
+      "url": "/objects.html",
+      "width": 390,
+      "file": "catalog-390.png"
+    },
+    {
+      "url": "/objects/medicine.html",
+      "width": 390,
+      "file": "industry-390.png"
+    },
+    {
+      "url": "/objects/dentistry.html",
+      "width": 390,
+      "file": "object-390.png"
+    },
+    {
+      "url": "/services/klopy.html",
+      "width": 390,
+      "file": "service-390.png"
+    },
+    {
+      "url": "/admin.html",
+      "width": 390,
+      "file": "admin-empty-390.png"
+    },
+    {
+      "url": "/",
+      "width": 1440,
+      "file": "home-1440.png"
+    },
+    {
+      "url": "/objects.html",
+      "width": 1440,
+      "file": "catalog-1440.png"
+    },
+    {
+      "url": "/objects/medicine.html",
+      "width": 1440,
+      "file": "industry-1440.png"
+    },
+    {
+      "url": "/objects/dentistry.html",
+      "width": 1440,
+      "file": "object-1440.png"
+    },
+    {
+      "url": "/services/klopy.html",
+      "width": 1440,
+      "file": "service-1440.png"
+    },
+    {
+      "url": "/admin.html",
+      "width": 1440,
+      "file": "admin-empty-1440.png"
+    }
+  ]
+}

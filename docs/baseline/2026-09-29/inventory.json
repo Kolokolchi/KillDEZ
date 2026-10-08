@@ -1,0 +1,5040 @@
+[
+  {
+    "path": "index.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Dis Cleaning — Профессиональная дезинфекция, дезинсекция и дератизация"
+      },
+      {
+        "tag": "h1",
+        "text": "Чистое пространство. Спокойствие каждый день."
+      },
+      {
+        "tag": "h2",
+        "text": "Вы заботитесь о гостях. Мы — о пространстве."
+      },
+      {
+        "tag": "h2",
+        "text": "Порядок в доме. Комфорт за его пределами."
+      },
+      {
+        "tag": "h2",
+        "text": "Услуги для дома и бизнеса"
+      },
+      {
+        "tag": "h2",
+        "text": "У каждого пространства свои задачи"
+      },
+      {
+        "tag": "h2",
+        "text": "Профессиональное оборудование"
+      },
+      {
+        "tag": "h2",
+        "text": "Почему выбирают Dis Cleaning"
+      },
+      {
+        "tag": "h2",
+        "text": "От заявки до результата"
+      },
+      {
+        "tag": "h2",
+        "text": "Работаем с организациями"
+      },
+      {
+        "tag": "h2",
+        "text": "Частые вопросы"
+      },
+      {
+        "tag": "h2",
+        "text": "Избавим от любых вредителей"
+      }
+    ],
+    "sections": [
+      {
+        "class": "visual-hero"
+      },
+      {
+        "id": "services"
+      },
+      {
+        "id": "objects"
+      },
+      {
+        "id": "methods"
+      },
+      {
+        "id": "why"
+      },
+      {
+        "id": "process"
+      },
+      {
+        "id": "b2b"
+      },
+      {
+        "id": "faq"
+      },
+      {
+        "id": "contacts"
+      }
+    ],
+    "stylesheets": [
+      "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap",
+      "css/style.css",
+      "css/theme.css"
+    ],
+    "scripts": [
+      "https://www.googletagmanager.com/gtag/js?id=AW-18184183102",
+      "js/main.js",
+      "js/interactions.js"
+    ]
+  },
+  {
+    "path": "objects.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Каталог объектов — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Пространства, о которых мы заботимся"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "catalog-heading"
+      },
+      {
+        "class": "catalog-body"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "css/style.css",
+      "css/theme.css"
+    ],
+    "scripts": [
+      "js/main.js",
+      "js/interactions.js"
+    ]
+  },
+  {
+    "path": "services/blokhi.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Уничтожение блох — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Уничтожение блох"
+      },
+      {
+        "tag": "h2",
+        "text": "Где работаем"
+      },
+      {
+        "tag": "h2",
+        "text": "Как решаем задачу"
+      },
+      {
+        "tag": "h2",
+        "text": "Подготовка к обработке"
+      },
+      {
+        "tag": "h2",
+        "text": "Стоимость"
+      },
+      {
+        "tag": "h2",
+        "text": "После обработки"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "services/cheshujnicy.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Уничтожение чешуйниц — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Уничтожение чешуйниц"
+      },
+      {
+        "tag": "h2",
+        "text": "Где работаем"
+      },
+      {
+        "tag": "h2",
+        "text": "Как решаем задачу"
+      },
+      {
+        "tag": "h2",
+        "text": "Подготовка к обработке"
+      },
+      {
+        "tag": "h2",
+        "text": "Стоимость"
+      },
+      {
+        "tag": "h2",
+        "text": "После обработки"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "services/cleaning.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Клининг помещений — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Клининг помещений"
+      },
+      {
+        "tag": "h2",
+        "text": "Зоны работы"
+      },
+      {
+        "tag": "h2",
+        "text": "Порядок работ"
+      },
+      {
+        "tag": "h2",
+        "text": "Подготовка"
+      },
+      {
+        "tag": "h2",
+        "text": "Стоимость"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "services/dezinfekciya.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Дезинфекция помещений — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Дезинфекция помещений"
+      },
+      {
+        "tag": "h2",
+        "text": "Зоны работы"
+      },
+      {
+        "tag": "h2",
+        "text": "Порядок работ"
+      },
+      {
+        "tag": "h2",
+        "text": "Подготовка"
+      },
+      {
+        "tag": "h2",
+        "text": "Стоимость"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "services/gribok.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Уничтожение грибка на стенах — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Уничтожение грибка на стенах"
+      },
+      {
+        "tag": "h2",
+        "text": "Где работаем"
+      },
+      {
+        "tag": "h2",
+        "text": "Как решаем задачу"
+      },
+      {
+        "tag": "h2",
+        "text": "Подготовка к обработке"
+      },
+      {
+        "tag": "h2",
+        "text": "Стоимость"
+      },
+      {
+        "tag": "h2",
+        "text": "После обработки"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "services/kleshchi.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Уничтожение клещей на участке — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Уничтожение клещей на участке"
+      },
+      {
+        "tag": "h2",
+        "text": "Где работаем"
+      },
+      {
+        "tag": "h2",
+        "text": "Как решаем задачу"
+      },
+      {
+        "tag": "h2",
+        "text": "Подготовка к обработке"
+      },
+      {
+        "tag": "h2",
+        "text": "Стоимость"
+      },
+      {
+        "tag": "h2",
+        "text": "После обработки"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "services/klopy.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Уничтожение постельных клопов — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Уничтожение постельных клопов"
+      },
+      {
+        "tag": "h2",
+        "text": "Где работаем"
+      },
+      {
+        "tag": "h2",
+        "text": "Как решаем задачу"
+      },
+      {
+        "tag": "h2",
+        "text": "Подготовка к обработке"
+      },
+      {
+        "tag": "h2",
+        "text": "Стоимость"
+      },
+      {
+        "tag": "h2",
+        "text": "После обработки"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "services/komary.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Уничтожение комаров на участке и дома — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Уничтожение комаров на участке и дома"
+      },
+      {
+        "tag": "h2",
+        "text": "Где работаем"
+      },
+      {
+        "tag": "h2",
+        "text": "Как решаем задачу"
+      },
+      {
+        "tag": "h2",
+        "text": "Подготовка к обработке"
+      },
+      {
+        "tag": "h2",
+        "text": "Стоимость"
+      },
+      {
+        "tag": "h2",
+        "text": "После обработки"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "services/kozheed.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Уничтожение жука-кожееда — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Уничтожение жука-кожееда"
+      },
+      {
+        "tag": "h2",
+        "text": "Где работаем"
+      },
+      {
+        "tag": "h2",
+        "text": "Как решаем задачу"
+      },
+      {
+        "tag": "h2",
+        "text": "Подготовка к обработке"
+      },
+      {
+        "tag": "h2",
+        "text": "Стоимость"
+      },
+      {
+        "tag": "h2",
+        "text": "После обработки"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "services/kroty.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Выведение кротов на участке — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Выведение кротов на участке"
+      },
+      {
+        "tag": "h2",
+        "text": "Где работаем"
+      },
+      {
+        "tag": "h2",
+        "text": "Как решаем задачу"
+      },
+      {
+        "tag": "h2",
+        "text": "Подготовка к обработке"
+      },
+      {
+        "tag": "h2",
+        "text": "Стоимость"
+      },
+      {
+        "tag": "h2",
+        "text": "После обработки"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "services/krysy-myshi.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Дератизация: уничтожение крыс и мышей — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Дератизация: уничтожение крыс и мышей"
+      },
+      {
+        "tag": "h2",
+        "text": "Где работаем"
+      },
+      {
+        "tag": "h2",
+        "text": "Как решаем задачу"
+      },
+      {
+        "tag": "h2",
+        "text": "Подготовка к обработке"
+      },
+      {
+        "tag": "h2",
+        "text": "Стоимость"
+      },
+      {
+        "tag": "h2",
+        "text": "После обработки"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "services/mokricy.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Уничтожение мокриц — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Уничтожение мокриц"
+      },
+      {
+        "tag": "h2",
+        "text": "Где работаем"
+      },
+      {
+        "tag": "h2",
+        "text": "Как решаем задачу"
+      },
+      {
+        "tag": "h2",
+        "text": "Подготовка к обработке"
+      },
+      {
+        "tag": "h2",
+        "text": "Стоимость"
+      },
+      {
+        "tag": "h2",
+        "text": "После обработки"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "services/mol.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Уничтожение платяной и пищевой моли — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Уничтожение платяной и пищевой моли"
+      },
+      {
+        "tag": "h2",
+        "text": "Где работаем"
+      },
+      {
+        "tag": "h2",
+        "text": "Как решаем задачу"
+      },
+      {
+        "tag": "h2",
+        "text": "Подготовка к обработке"
+      },
+      {
+        "tag": "h2",
+        "text": "Стоимость"
+      },
+      {
+        "tag": "h2",
+        "text": "После обработки"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "services/muravi.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Уничтожение муравьёв — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Уничтожение муравьёв"
+      },
+      {
+        "tag": "h2",
+        "text": "Где работаем"
+      },
+      {
+        "tag": "h2",
+        "text": "Как решаем задачу"
+      },
+      {
+        "tag": "h2",
+        "text": "Подготовка к обработке"
+      },
+      {
+        "tag": "h2",
+        "text": "Стоимость"
+      },
+      {
+        "tag": "h2",
+        "text": "После обработки"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "services/obrabotka-uchastka.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Комплексная обработка участка от вредителей — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Комплексная обработка участка от вредителей"
+      },
+      {
+        "tag": "h2",
+        "text": "Где работаем"
+      },
+      {
+        "tag": "h2",
+        "text": "Как решаем задачу"
+      },
+      {
+        "tag": "h2",
+        "text": "Подготовка к обработке"
+      },
+      {
+        "tag": "h2",
+        "text": "Стоимость"
+      },
+      {
+        "tag": "h2",
+        "text": "После обработки"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "services/osy.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Уничтожение ос и осиных гнёзд — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Уничтожение ос и осиных гнёзд"
+      },
+      {
+        "tag": "h2",
+        "text": "Где работаем"
+      },
+      {
+        "tag": "h2",
+        "text": "Как решаем задачу"
+      },
+      {
+        "tag": "h2",
+        "text": "Подготовка к обработке"
+      },
+      {
+        "tag": "h2",
+        "text": "Стоимость"
+      },
+      {
+        "tag": "h2",
+        "text": "После обработки"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "services/pauki.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Уничтожение пауков и каракуртов — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Уничтожение пауков и каракуртов"
+      },
+      {
+        "tag": "h2",
+        "text": "Где работаем"
+      },
+      {
+        "tag": "h2",
+        "text": "Как решаем задачу"
+      },
+      {
+        "tag": "h2",
+        "text": "Подготовка к обработке"
+      },
+      {
+        "tag": "h2",
+        "text": "Стоимость"
+      },
+      {
+        "tag": "h2",
+        "text": "После обработки"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "services/plesen.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Уничтожение черной плесени — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Уничтожение черной плесени"
+      },
+      {
+        "tag": "h2",
+        "text": "Где работаем"
+      },
+      {
+        "tag": "h2",
+        "text": "Как решаем задачу"
+      },
+      {
+        "tag": "h2",
+        "text": "Подготовка к обработке"
+      },
+      {
+        "tag": "h2",
+        "text": "Стоимость"
+      },
+      {
+        "tag": "h2",
+        "text": "После обработки"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "services/tarakany.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Уничтожение тараканов — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Уничтожение тараканов"
+      },
+      {
+        "tag": "h2",
+        "text": "Где работаем"
+      },
+      {
+        "tag": "h2",
+        "text": "Как решаем задачу"
+      },
+      {
+        "tag": "h2",
+        "text": "Подготовка к обработке"
+      },
+      {
+        "tag": "h2",
+        "text": "Стоимость"
+      },
+      {
+        "tag": "h2",
+        "text": "После обработки"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "services/zapakh.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Устранение неприятных запахов — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Устранение неприятных запахов"
+      },
+      {
+        "tag": "h2",
+        "text": "Где работаем"
+      },
+      {
+        "tag": "h2",
+        "text": "Как решаем задачу"
+      },
+      {
+        "tag": "h2",
+        "text": "Подготовка к обработке"
+      },
+      {
+        "tag": "h2",
+        "text": "Стоимость"
+      },
+      {
+        "tag": "h2",
+        "text": "После обработки"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "services/zmei.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Выведение и отлов змей — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Выведение и отлов змей"
+      },
+      {
+        "tag": "h2",
+        "text": "Где работаем"
+      },
+      {
+        "tag": "h2",
+        "text": "Как решаем задачу"
+      },
+      {
+        "tag": "h2",
+        "text": "Подготовка к обработке"
+      },
+      {
+        "tag": "h2",
+        "text": "Стоимость"
+      },
+      {
+        "tag": "h2",
+        "text": "После обработки"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "objects/administration.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Административные здания — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Административные здания"
+      },
+      {
+        "tag": "h2",
+        "text": "В фокусе работы"
+      },
+      {
+        "tag": "h2",
+        "text": "Что учитываем"
+      },
+      {
+        "tag": "h2",
+        "text": "Работы под вашу задачу"
+      },
+      {
+        "tag": "h2",
+        "text": "Перед выездом"
+      },
+      {
+        "tag": "h2",
+        "text": "Стоимость и график"
+      },
+      {
+        "tag": "h2",
+        "text": "В этом разделе"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "objects/airports.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Аэропорты — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Аэропорты"
+      },
+      {
+        "tag": "h2",
+        "text": "В фокусе работы"
+      },
+      {
+        "tag": "h2",
+        "text": "Что учитываем"
+      },
+      {
+        "tag": "h2",
+        "text": "Работы под вашу задачу"
+      },
+      {
+        "tag": "h2",
+        "text": "Перед выездом"
+      },
+      {
+        "tag": "h2",
+        "text": "Стоимость и график"
+      },
+      {
+        "tag": "h2",
+        "text": "В этом разделе"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "objects/apartments.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Квартиры — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Квартиры"
+      },
+      {
+        "tag": "h2",
+        "text": "В фокусе работы"
+      },
+      {
+        "tag": "h2",
+        "text": "Что учитываем"
+      },
+      {
+        "tag": "h2",
+        "text": "Работы под вашу задачу"
+      },
+      {
+        "tag": "h2",
+        "text": "Перед выездом"
+      },
+      {
+        "tag": "h2",
+        "text": "Стоимость и график"
+      },
+      {
+        "tag": "h2",
+        "text": "В этом разделе"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "objects/bars.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Бары — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Бары"
+      },
+      {
+        "tag": "h2",
+        "text": "В фокусе работы"
+      },
+      {
+        "tag": "h2",
+        "text": "Что учитываем"
+      },
+      {
+        "tag": "h2",
+        "text": "Работы под вашу задачу"
+      },
+      {
+        "tag": "h2",
+        "text": "Перед выездом"
+      },
+      {
+        "tag": "h2",
+        "text": "Стоимость и график"
+      },
+      {
+        "tag": "h2",
+        "text": "В этом разделе"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "objects/baths.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Бани — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Бани"
+      },
+      {
+        "tag": "h2",
+        "text": "В фокусе работы"
+      },
+      {
+        "tag": "h2",
+        "text": "Что учитываем"
+      },
+      {
+        "tag": "h2",
+        "text": "Работы под вашу задачу"
+      },
+      {
+        "tag": "h2",
+        "text": "Перед выездом"
+      },
+      {
+        "tag": "h2",
+        "text": "Стоимость и график"
+      },
+      {
+        "tag": "h2",
+        "text": "В этом разделе"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "objects/beauty.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Салоны красоты — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Салоны красоты"
+      },
+      {
+        "tag": "h2",
+        "text": "В фокусе работы"
+      },
+      {
+        "tag": "h2",
+        "text": "Что учитываем"
+      },
+      {
+        "tag": "h2",
+        "text": "Работы под вашу задачу"
+      },
+      {
+        "tag": "h2",
+        "text": "Перед выездом"
+      },
+      {
+        "tag": "h2",
+        "text": "Стоимость и график"
+      },
+      {
+        "tag": "h2",
+        "text": "В этом разделе"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "objects/business-centers.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Бизнес-центры — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Бизнес-центры"
+      },
+      {
+        "tag": "h2",
+        "text": "В фокусе работы"
+      },
+      {
+        "tag": "h2",
+        "text": "Что учитываем"
+      },
+      {
+        "tag": "h2",
+        "text": "Работы под вашу задачу"
+      },
+      {
+        "tag": "h2",
+        "text": "Перед выездом"
+      },
+      {
+        "tag": "h2",
+        "text": "Стоимость и график"
+      },
+      {
+        "tag": "h2",
+        "text": "В этом разделе"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "objects/business.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Офисы и бизнес-центры — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Офисы и бизнес-центры"
+      },
+      {
+        "tag": "h2",
+        "text": "В фокусе работы"
+      },
+      {
+        "tag": "h2",
+        "text": "Офисы"
+      },
+      {
+        "tag": "h2",
+        "text": "Бизнес-центры"
+      },
+      {
+        "tag": "h2",
+        "text": "Коворкинги"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "catalog-body"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "objects/cafes.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Кафе — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Кафе"
+      },
+      {
+        "tag": "h2",
+        "text": "В фокусе работы"
+      },
+      {
+        "tag": "h2",
+        "text": "Что учитываем"
+      },
+      {
+        "tag": "h2",
+        "text": "Работы под вашу задачу"
+      },
+      {
+        "tag": "h2",
+        "text": "Перед выездом"
+      },
+      {
+        "tag": "h2",
+        "text": "Стоимость и график"
+      },
+      {
+        "tag": "h2",
+        "text": "В этом разделе"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "objects/canteens.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Столовые — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Столовые"
+      },
+      {
+        "tag": "h2",
+        "text": "В фокусе работы"
+      },
+      {
+        "tag": "h2",
+        "text": "Что учитываем"
+      },
+      {
+        "tag": "h2",
+        "text": "Работы под вашу задачу"
+      },
+      {
+        "tag": "h2",
+        "text": "Перед выездом"
+      },
+      {
+        "tag": "h2",
+        "text": "Стоимость и график"
+      },
+      {
+        "tag": "h2",
+        "text": "В этом разделе"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "objects/cinemas.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Кинотеатры — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Кинотеатры"
+      },
+      {
+        "tag": "h2",
+        "text": "В фокусе работы"
+      },
+      {
+        "tag": "h2",
+        "text": "Что учитываем"
+      },
+      {
+        "tag": "h2",
+        "text": "Работы под вашу задачу"
+      },
+      {
+        "tag": "h2",
+        "text": "Перед выездом"
+      },
+      {
+        "tag": "h2",
+        "text": "Стоимость и график"
+      },
+      {
+        "tag": "h2",
+        "text": "В этом разделе"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "objects/common-areas.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Общие зоны жилых домов — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Общие зоны жилых домов"
+      },
+      {
+        "tag": "h2",
+        "text": "В фокусе работы"
+      },
+      {
+        "tag": "h2",
+        "text": "Что учитываем"
+      },
+      {
+        "tag": "h2",
+        "text": "Работы под вашу задачу"
+      },
+      {
+        "tag": "h2",
+        "text": "Перед выездом"
+      },
+      {
+        "tag": "h2",
+        "text": "Стоимость и график"
+      },
+      {
+        "tag": "h2",
+        "text": "В этом разделе"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "objects/coworking.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Коворкинги — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Коворкинги"
+      },
+      {
+        "tag": "h2",
+        "text": "В фокусе работы"
+      },
+      {
+        "tag": "h2",
+        "text": "Что учитываем"
+      },
+      {
+        "tag": "h2",
+        "text": "Работы под вашу задачу"
+      },
+      {
+        "tag": "h2",
+        "text": "Перед выездом"
+      },
+      {
+        "tag": "h2",
+        "text": "Стоимость и график"
+      },
+      {
+        "tag": "h2",
+        "text": "В этом разделе"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "objects/dentistry.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Стоматологии — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Стоматологии"
+      },
+      {
+        "tag": "h2",
+        "text": "В фокусе работы"
+      },
+      {
+        "tag": "h2",
+        "text": "Что учитываем"
+      },
+      {
+        "tag": "h2",
+        "text": "Работы под вашу задачу"
+      },
+      {
+        "tag": "h2",
+        "text": "Перед выездом"
+      },
+      {
+        "tag": "h2",
+        "text": "Стоимость и график"
+      },
+      {
+        "tag": "h2",
+        "text": "В этом разделе"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "objects/departments.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Офисы ведомств — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Офисы ведомств"
+      },
+      {
+        "tag": "h2",
+        "text": "В фокусе работы"
+      },
+      {
+        "tag": "h2",
+        "text": "Что учитываем"
+      },
+      {
+        "tag": "h2",
+        "text": "Работы под вашу задачу"
+      },
+      {
+        "tag": "h2",
+        "text": "Перед выездом"
+      },
+      {
+        "tag": "h2",
+        "text": "Стоимость и график"
+      },
+      {
+        "tag": "h2",
+        "text": "В этом разделе"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "objects/distribution.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Распределительные центры — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Распределительные центры"
+      },
+      {
+        "tag": "h2",
+        "text": "В фокусе работы"
+      },
+      {
+        "tag": "h2",
+        "text": "Что учитываем"
+      },
+      {
+        "tag": "h2",
+        "text": "Работы под вашу задачу"
+      },
+      {
+        "tag": "h2",
+        "text": "Перед выездом"
+      },
+      {
+        "tag": "h2",
+        "text": "Стоимость и график"
+      },
+      {
+        "tag": "h2",
+        "text": "В этом разделе"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "objects/dormitories.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Общежития — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Общежития"
+      },
+      {
+        "tag": "h2",
+        "text": "В фокусе работы"
+      },
+      {
+        "tag": "h2",
+        "text": "Что учитываем"
+      },
+      {
+        "tag": "h2",
+        "text": "Работы под вашу задачу"
+      },
+      {
+        "tag": "h2",
+        "text": "Перед выездом"
+      },
+      {
+        "tag": "h2",
+        "text": "Стоимость и график"
+      },
+      {
+        "tag": "h2",
+        "text": "В этом разделе"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "objects/education.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Детские и образовательные учреждения — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Детские и образовательные учреждения"
+      },
+      {
+        "tag": "h2",
+        "text": "В фокусе работы"
+      },
+      {
+        "tag": "h2",
+        "text": "Детские сады"
+      },
+      {
+        "tag": "h2",
+        "text": "Школы"
+      },
+      {
+        "tag": "h2",
+        "text": "Развивающие центры"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "catalog-body"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "objects/fastfood.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Точки фастфуда — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Точки фастфуда"
+      },
+      {
+        "tag": "h2",
+        "text": "В фокусе работы"
+      },
+      {
+        "tag": "h2",
+        "text": "Что учитываем"
+      },
+      {
+        "tag": "h2",
+        "text": "Работы под вашу задачу"
+      },
+      {
+        "tag": "h2",
+        "text": "Перед выездом"
+      },
+      {
+        "tag": "h2",
+        "text": "Стоимость и график"
+      },
+      {
+        "tag": "h2",
+        "text": "В этом разделе"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "objects/fitness.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Фитнес-клубы — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Фитнес-клубы"
+      },
+      {
+        "tag": "h2",
+        "text": "В фокусе работы"
+      },
+      {
+        "tag": "h2",
+        "text": "Что учитываем"
+      },
+      {
+        "tag": "h2",
+        "text": "Работы под вашу задачу"
+      },
+      {
+        "tag": "h2",
+        "text": "Перед выездом"
+      },
+      {
+        "tag": "h2",
+        "text": "Стоимость и график"
+      },
+      {
+        "tag": "h2",
+        "text": "В этом разделе"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "objects/food.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Общепит — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Общепит"
+      },
+      {
+        "tag": "h2",
+        "text": "В фокусе работы"
+      },
+      {
+        "tag": "h2",
+        "text": "Рестораны"
+      },
+      {
+        "tag": "h2",
+        "text": "Кафе"
+      },
+      {
+        "tag": "h2",
+        "text": "Столовые"
+      },
+      {
+        "tag": "h2",
+        "text": "Бары"
+      },
+      {
+        "tag": "h2",
+        "text": "Точки фастфуда"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "catalog-body"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "objects/government.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Государственные учреждения — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Государственные учреждения"
+      },
+      {
+        "tag": "h2",
+        "text": "В фокусе работы"
+      },
+      {
+        "tag": "h2",
+        "text": "Административные здания"
+      },
+      {
+        "tag": "h2",
+        "text": "Офисы ведомств"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "catalog-body"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "objects/gyms.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Тренажёрные залы — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Тренажёрные залы"
+      },
+      {
+        "tag": "h2",
+        "text": "В фокусе работы"
+      },
+      {
+        "tag": "h2",
+        "text": "Что учитываем"
+      },
+      {
+        "tag": "h2",
+        "text": "Работы под вашу задачу"
+      },
+      {
+        "tag": "h2",
+        "text": "Перед выездом"
+      },
+      {
+        "tag": "h2",
+        "text": "Стоимость и график"
+      },
+      {
+        "tag": "h2",
+        "text": "В этом разделе"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "objects/hairdressers.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Парикмахерские — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Парикмахерские"
+      },
+      {
+        "tag": "h2",
+        "text": "В фокусе работы"
+      },
+      {
+        "tag": "h2",
+        "text": "Что учитываем"
+      },
+      {
+        "tag": "h2",
+        "text": "Работы под вашу задачу"
+      },
+      {
+        "tag": "h2",
+        "text": "Перед выездом"
+      },
+      {
+        "tag": "h2",
+        "text": "Стоимость и график"
+      },
+      {
+        "tag": "h2",
+        "text": "В этом разделе"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "objects/hospitality.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Гостиницы и коллективное проживание — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Гостиницы и коллективное проживание"
+      },
+      {
+        "tag": "h2",
+        "text": "В фокусе работы"
+      },
+      {
+        "tag": "h2",
+        "text": "Общежития"
+      },
+      {
+        "tag": "h2",
+        "text": "Хостелы"
+      },
+      {
+        "tag": "h2",
+        "text": "Гостиницы и отели"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "catalog-body"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "objects/hostels.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Хостелы — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Хостелы"
+      },
+      {
+        "tag": "h2",
+        "text": "В фокусе работы"
+      },
+      {
+        "tag": "h2",
+        "text": "Что учитываем"
+      },
+      {
+        "tag": "h2",
+        "text": "Работы под вашу задачу"
+      },
+      {
+        "tag": "h2",
+        "text": "Перед выездом"
+      },
+      {
+        "tag": "h2",
+        "text": "Стоимость и график"
+      },
+      {
+        "tag": "h2",
+        "text": "В этом разделе"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "objects/hotels.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Гостиницы и отели — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Гостиницы и отели"
+      },
+      {
+        "tag": "h2",
+        "text": "В фокусе работы"
+      },
+      {
+        "tag": "h2",
+        "text": "Что учитываем"
+      },
+      {
+        "tag": "h2",
+        "text": "Работы под вашу задачу"
+      },
+      {
+        "tag": "h2",
+        "text": "Перед выездом"
+      },
+      {
+        "tag": "h2",
+        "text": "Стоимость и график"
+      },
+      {
+        "tag": "h2",
+        "text": "В этом разделе"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "objects/houses.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Частные дома — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Частные дома"
+      },
+      {
+        "tag": "h2",
+        "text": "В фокусе работы"
+      },
+      {
+        "tag": "h2",
+        "text": "Что учитываем"
+      },
+      {
+        "tag": "h2",
+        "text": "Работы под вашу задачу"
+      },
+      {
+        "tag": "h2",
+        "text": "Перед выездом"
+      },
+      {
+        "tag": "h2",
+        "text": "Стоимость и график"
+      },
+      {
+        "tag": "h2",
+        "text": "В этом разделе"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "objects/kindergartens.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Детские сады — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Детские сады"
+      },
+      {
+        "tag": "h2",
+        "text": "В фокусе работы"
+      },
+      {
+        "tag": "h2",
+        "text": "Что учитываем"
+      },
+      {
+        "tag": "h2",
+        "text": "Работы под вашу задачу"
+      },
+      {
+        "tag": "h2",
+        "text": "Перед выездом"
+      },
+      {
+        "tag": "h2",
+        "text": "Стоимость и график"
+      },
+      {
+        "tag": "h2",
+        "text": "В этом разделе"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "objects/learning-centers.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Развивающие центры — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Развивающие центры"
+      },
+      {
+        "tag": "h2",
+        "text": "В фокусе работы"
+      },
+      {
+        "tag": "h2",
+        "text": "Что учитываем"
+      },
+      {
+        "tag": "h2",
+        "text": "Работы под вашу задачу"
+      },
+      {
+        "tag": "h2",
+        "text": "Перед выездом"
+      },
+      {
+        "tag": "h2",
+        "text": "Стоимость и график"
+      },
+      {
+        "tag": "h2",
+        "text": "В этом разделе"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "objects/leisure.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Развлечения и услуги — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Развлечения и услуги"
+      },
+      {
+        "tag": "h2",
+        "text": "В фокусе работы"
+      },
+      {
+        "tag": "h2",
+        "text": "Кинотеатры"
+      },
+      {
+        "tag": "h2",
+        "text": "Салоны красоты"
+      },
+      {
+        "tag": "h2",
+        "text": "Парикмахерские"
+      },
+      {
+        "tag": "h2",
+        "text": "Бани"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "catalog-body"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "objects/logistics.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Транспорт и логистика — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Транспорт и логистика"
+      },
+      {
+        "tag": "h2",
+        "text": "В фокусе работы"
+      },
+      {
+        "tag": "h2",
+        "text": "Вокзалы"
+      },
+      {
+        "tag": "h2",
+        "text": "Аэропорты"
+      },
+      {
+        "tag": "h2",
+        "text": "Склады"
+      },
+      {
+        "tag": "h2",
+        "text": "Распределительные центры"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "catalog-body"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "objects/malls.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Торговые центры — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Торговые центры"
+      },
+      {
+        "tag": "h2",
+        "text": "В фокусе работы"
+      },
+      {
+        "tag": "h2",
+        "text": "Что учитываем"
+      },
+      {
+        "tag": "h2",
+        "text": "Работы под вашу задачу"
+      },
+      {
+        "tag": "h2",
+        "text": "Перед выездом"
+      },
+      {
+        "tag": "h2",
+        "text": "Стоимость и график"
+      },
+      {
+        "tag": "h2",
+        "text": "В этом разделе"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "objects/medicine.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Медицинские учреждения — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Медицинские учреждения"
+      },
+      {
+        "tag": "h2",
+        "text": "В фокусе работы"
+      },
+      {
+        "tag": "h2",
+        "text": "Поликлиники"
+      },
+      {
+        "tag": "h2",
+        "text": "Частные клиники"
+      },
+      {
+        "tag": "h2",
+        "text": "Стоматологии"
+      },
+      {
+        "tag": "h2",
+        "text": "Аптеки"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "catalog-body"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "objects/offices.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Офисы — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Офисы"
+      },
+      {
+        "tag": "h2",
+        "text": "В фокусе работы"
+      },
+      {
+        "tag": "h2",
+        "text": "Что учитываем"
+      },
+      {
+        "tag": "h2",
+        "text": "Работы под вашу задачу"
+      },
+      {
+        "tag": "h2",
+        "text": "Перед выездом"
+      },
+      {
+        "tag": "h2",
+        "text": "Стоимость и график"
+      },
+      {
+        "tag": "h2",
+        "text": "В этом разделе"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "objects/other.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Жильё и производство — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Жильё и производство"
+      },
+      {
+        "tag": "h2",
+        "text": "В фокусе работы"
+      },
+      {
+        "tag": "h2",
+        "text": "Квартиры"
+      },
+      {
+        "tag": "h2",
+        "text": "Частные дома"
+      },
+      {
+        "tag": "h2",
+        "text": "Производственные помещения"
+      },
+      {
+        "tag": "h2",
+        "text": "Общие зоны жилых домов"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "catalog-body"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "objects/pharmacies.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Аптеки — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Аптеки"
+      },
+      {
+        "tag": "h2",
+        "text": "В фокусе работы"
+      },
+      {
+        "tag": "h2",
+        "text": "Что учитываем"
+      },
+      {
+        "tag": "h2",
+        "text": "Работы под вашу задачу"
+      },
+      {
+        "tag": "h2",
+        "text": "Перед выездом"
+      },
+      {
+        "tag": "h2",
+        "text": "Стоимость и график"
+      },
+      {
+        "tag": "h2",
+        "text": "В этом разделе"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "objects/polyclinics.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Поликлиники — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Поликлиники"
+      },
+      {
+        "tag": "h2",
+        "text": "В фокусе работы"
+      },
+      {
+        "tag": "h2",
+        "text": "Что учитываем"
+      },
+      {
+        "tag": "h2",
+        "text": "Работы под вашу задачу"
+      },
+      {
+        "tag": "h2",
+        "text": "Перед выездом"
+      },
+      {
+        "tag": "h2",
+        "text": "Стоимость и график"
+      },
+      {
+        "tag": "h2",
+        "text": "В этом разделе"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "objects/pools.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Бассейны — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Бассейны"
+      },
+      {
+        "tag": "h2",
+        "text": "В фокусе работы"
+      },
+      {
+        "tag": "h2",
+        "text": "Что учитываем"
+      },
+      {
+        "tag": "h2",
+        "text": "Работы под вашу задачу"
+      },
+      {
+        "tag": "h2",
+        "text": "Перед выездом"
+      },
+      {
+        "tag": "h2",
+        "text": "Стоимость и график"
+      },
+      {
+        "tag": "h2",
+        "text": "В этом разделе"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "objects/private-clinics.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Частные клиники — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Частные клиники"
+      },
+      {
+        "tag": "h2",
+        "text": "В фокусе работы"
+      },
+      {
+        "tag": "h2",
+        "text": "Что учитываем"
+      },
+      {
+        "tag": "h2",
+        "text": "Работы под вашу задачу"
+      },
+      {
+        "tag": "h2",
+        "text": "Перед выездом"
+      },
+      {
+        "tag": "h2",
+        "text": "Стоимость и график"
+      },
+      {
+        "tag": "h2",
+        "text": "В этом разделе"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "objects/production.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Производственные помещения — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Производственные помещения"
+      },
+      {
+        "tag": "h2",
+        "text": "В фокусе работы"
+      },
+      {
+        "tag": "h2",
+        "text": "Что учитываем"
+      },
+      {
+        "tag": "h2",
+        "text": "Работы под вашу задачу"
+      },
+      {
+        "tag": "h2",
+        "text": "Перед выездом"
+      },
+      {
+        "tag": "h2",
+        "text": "Стоимость и график"
+      },
+      {
+        "tag": "h2",
+        "text": "В этом разделе"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "objects/restaurants.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Рестораны — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Рестораны"
+      },
+      {
+        "tag": "h2",
+        "text": "В фокусе работы"
+      },
+      {
+        "tag": "h2",
+        "text": "Что учитываем"
+      },
+      {
+        "tag": "h2",
+        "text": "Работы под вашу задачу"
+      },
+      {
+        "tag": "h2",
+        "text": "Перед выездом"
+      },
+      {
+        "tag": "h2",
+        "text": "Стоимость и график"
+      },
+      {
+        "tag": "h2",
+        "text": "В этом разделе"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "objects/retail.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Торговые объекты — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Торговые объекты"
+      },
+      {
+        "tag": "h2",
+        "text": "В фокусе работы"
+      },
+      {
+        "tag": "h2",
+        "text": "Торговые центры"
+      },
+      {
+        "tag": "h2",
+        "text": "Магазины"
+      },
+      {
+        "tag": "h2",
+        "text": "Супермаркеты"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "catalog-body"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "objects/saunas.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Сауны — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Сауны"
+      },
+      {
+        "tag": "h2",
+        "text": "В фокусе работы"
+      },
+      {
+        "tag": "h2",
+        "text": "Что учитываем"
+      },
+      {
+        "tag": "h2",
+        "text": "Работы под вашу задачу"
+      },
+      {
+        "tag": "h2",
+        "text": "Перед выездом"
+      },
+      {
+        "tag": "h2",
+        "text": "Стоимость и график"
+      },
+      {
+        "tag": "h2",
+        "text": "В этом разделе"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "objects/schools.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Школы — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Школы"
+      },
+      {
+        "tag": "h2",
+        "text": "В фокусе работы"
+      },
+      {
+        "tag": "h2",
+        "text": "Что учитываем"
+      },
+      {
+        "tag": "h2",
+        "text": "Работы под вашу задачу"
+      },
+      {
+        "tag": "h2",
+        "text": "Перед выездом"
+      },
+      {
+        "tag": "h2",
+        "text": "Стоимость и график"
+      },
+      {
+        "tag": "h2",
+        "text": "В этом разделе"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "objects/shops.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Магазины — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Магазины"
+      },
+      {
+        "tag": "h2",
+        "text": "В фокусе работы"
+      },
+      {
+        "tag": "h2",
+        "text": "Что учитываем"
+      },
+      {
+        "tag": "h2",
+        "text": "Работы под вашу задачу"
+      },
+      {
+        "tag": "h2",
+        "text": "Перед выездом"
+      },
+      {
+        "tag": "h2",
+        "text": "Стоимость и график"
+      },
+      {
+        "tag": "h2",
+        "text": "В этом разделе"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "objects/sport.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Спортивные объекты — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Спортивные объекты"
+      },
+      {
+        "tag": "h2",
+        "text": "В фокусе работы"
+      },
+      {
+        "tag": "h2",
+        "text": "Фитнес-клубы"
+      },
+      {
+        "tag": "h2",
+        "text": "Тренажёрные залы"
+      },
+      {
+        "tag": "h2",
+        "text": "Бассейны"
+      },
+      {
+        "tag": "h2",
+        "text": "Сауны"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "catalog-body"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "objects/stations.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Вокзалы — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Вокзалы"
+      },
+      {
+        "tag": "h2",
+        "text": "В фокусе работы"
+      },
+      {
+        "tag": "h2",
+        "text": "Что учитываем"
+      },
+      {
+        "tag": "h2",
+        "text": "Работы под вашу задачу"
+      },
+      {
+        "tag": "h2",
+        "text": "Перед выездом"
+      },
+      {
+        "tag": "h2",
+        "text": "Стоимость и график"
+      },
+      {
+        "tag": "h2",
+        "text": "В этом разделе"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "objects/supermarkets.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Супермаркеты — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Супермаркеты"
+      },
+      {
+        "tag": "h2",
+        "text": "В фокусе работы"
+      },
+      {
+        "tag": "h2",
+        "text": "Что учитываем"
+      },
+      {
+        "tag": "h2",
+        "text": "Работы под вашу задачу"
+      },
+      {
+        "tag": "h2",
+        "text": "Перед выездом"
+      },
+      {
+        "tag": "h2",
+        "text": "Стоимость и график"
+      },
+      {
+        "tag": "h2",
+        "text": "В этом разделе"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "objects/warehouses.html",
+    "public": true,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Склады — Dis Cleaning, Алматы и Кордай"
+      },
+      {
+        "tag": "h1",
+        "text": "Склады"
+      },
+      {
+        "tag": "h2",
+        "text": "В фокусе работы"
+      },
+      {
+        "tag": "h2",
+        "text": "Что учитываем"
+      },
+      {
+        "tag": "h2",
+        "text": "Работы под вашу задачу"
+      },
+      {
+        "tag": "h2",
+        "text": "Перед выездом"
+      },
+      {
+        "tag": "h2",
+        "text": "Стоимость и график"
+      },
+      {
+        "tag": "h2",
+        "text": "В этом разделе"
+      },
+      {
+        "tag": "h2",
+        "text": "Начнём с вашей задачи"
+      }
+    ],
+    "sections": [
+      {
+        "class": "detail-hero"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "detail-section"
+      },
+      {
+        "class": "catalog-cta"
+      }
+    ],
+    "stylesheets": [
+      "../css/style.css",
+      "../css/theme.css"
+    ],
+    "scripts": [
+      "../js/main.js",
+      "../js/interactions.js"
+    ]
+  },
+  {
+    "path": "admin.html",
+    "public": false,
+    "headings": [
+      {
+        "tag": "title",
+        "text": "Dis Cleaning Admin — Панель заявок"
+      },
+      {
+        "tag": "h1",
+        "text": "Панель заявок"
+      }
+    ],
+    "sections": [],
+    "stylesheets": [
+      "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    ],
+    "scripts": []
+  }
+]
