@@ -1,0 +1,8 @@
+:HL["/KillDEZ/_next/static/css/8c996084f5ff2f44.css","style"]
+:HL["/KillDEZ/_next/static/css/3f8cf389d519af5c.css","style"]
+:HL["/KillDEZ/_next/static/css/372172b4380f39bb.css","style"]
+:HL["/KillDEZ/images/brand/wordmark.webp","image"]
+:HL["/KillDEZ/images/brand/Oswald-Variable.ttf","font",{"crossOrigin":"anonymous","type":"font/ttf"}]
+:HL["/KillDEZ/css/style.css","style"]
+:HL["/KillDEZ/css/theme.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"(site)","param":null,"prefetchHints":4192,"slots":{"children":{"name":"slug","param":{"type":"oc","key":"objects/departments","siblings":["_not-found","_global-error"]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"4TJ9Gw1gElNOiqO6YMuqq"}

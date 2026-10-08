@@ -1,0 +1,41 @@
+/* Local admin, with all existing data controls and storage behavior retained. */
+body:has(.rebrand-admin) { background: #f3f0e9; font-family: Arial, Helvetica, sans-serif; }
+.rebrand-admin {
+  --bg: #f3f0e9;
+  --card: #f3f0e9;
+  --ink: #151515;
+  --mute: #595752;
+  --line: #b7b3aa;
+  --green: #e91022;
+  --green-dark: #151515;
+  --green-soft: #e3e0d8;
+  --radius: 0px;
+  color: var(--ink);
+}
+.rebrand-admin header { border-bottom: 2px solid var(--ink); padding-bottom: 24px; }
+.rebrand-admin .brand .brand-logo { width: 205px; border-radius: 0; }
+.rebrand-admin .badge-admin { background: var(--ink); color: #fff; border-radius: 0; font-size: 11px; padding: 9px 14px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; }
+.rebrand-admin .btn { border: 1px solid var(--ink); background: transparent; border-radius: 0; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .03em; }
+.rebrand-admin .btn:hover { background: var(--ink); color: white; }
+.rebrand-admin .btn-green { background: var(--green); border-color: var(--green); color: #fff; }
+.rebrand-admin .btn-danger { border-color: var(--green); color: var(--green); }
+.rebrand-admin .stat-card { border: 1px solid var(--ink); border-top: 4px solid var(--green); border-radius: 0; background: transparent; }
+.rebrand-admin .stat-title { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; }
+.rebrand-admin .stat-val { font: 500 66px/1.2 'Kill Display', Impact, sans-serif; color: var(--ink) !important; }
+.rebrand-admin .search-box input { border: 1px solid var(--ink); background: transparent; border-radius: 0; }
+.rebrand-admin .search-box input:focus { outline: 2px solid var(--green); }
+.rebrand-admin .filter-btn { border: 1px solid var(--ink); border-radius: 0; background: transparent; font-size: 11px; font-weight: 700; }
+.rebrand-admin .filter-btn.active { background: var(--ink); color: white; }
+.rebrand-admin .table-card { border: 1px solid var(--ink); border-radius: 0; background: transparent; }
+.rebrand-admin th { background: var(--ink); color: #fff; font-size: 10px; text-transform: uppercase; letter-spacing: .055em; }
+.rebrand-admin td { border-bottom: 1px solid var(--line); }
+.rebrand-admin tr:hover td { background: #e8e5de; }
+.rebrand-admin .wa-link { color: var(--green); }
+.rebrand-admin .status-select { border: 1px solid var(--ink); border-radius: 0; background: #f3f0e9; }
+.rebrand-admin .status-badge { border-radius: 0; }
+.rebrand-admin :focus-visible { outline: 3px solid var(--green); outline-offset: 3px; }
+@media(max-width:600px) {
+  .rebrand-admin .brand { gap: 12px; }
+  .rebrand-admin .brand .brand-logo { width: 165px; }
+  .rebrand-admin .header-actions { width: 100%; flex-wrap: wrap; }
+}

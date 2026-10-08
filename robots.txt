@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://kolokolchi.github.io/KillDEZ/sitemap.xml

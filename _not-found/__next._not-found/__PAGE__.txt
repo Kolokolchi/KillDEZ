@@ -1,0 +1,21 @@
+1:"$Sreact.fragment"
+2:I[4090,[],"OutletBoundary"]
+3:"$Sreact.suspense"
+7:I[4090,[],"ViewportBoundary"]
+8:I[4090,[],"MetadataBoundary"]
+a:I[2483,[],""]
+b:I[7631,[],""]
+:HL["/KillDEZ/images/brand/wordmark.webp","image"]
+6:X
+d:X
+d:C
+0:{"buildId":"4TJ9Gw1gElNOiqO6YMuqq","data":[{"rsc":["$","$1","c",{"children":[["$","main",null,{"className":"rebrand rebrand-error","children":["$","div",null,{"className":"wrap","children":[["$","a",null,{"href":"/KillDEZ/","aria-label":"KILL DEZ — на главную","children":["$","img",null,{"src":"/KillDEZ/images/brand/wordmark.webp","alt":"KILL DEZ","width":"2056","height":"765"}]}],["$","div",null,{"className":"error-number","aria-hidden":"true","children":["404",["$","span",null,{"children":"×"}]]}],["$","h1",null,{"children":"Страница не найдена"}],["$","p",null,{"children":"Проверьте адрес или перейдите на главную."}],["$","a",null,{"className":"btn btn-green","href":"/KillDEZ/","children":"KILL DEZ — на главную ↗"}]]}]}],null,["$","$L2",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@4"}]}]]}],"isPartial":"$@5","staleTime":"$6","varyParams":null},{"rsc":["$","$1","h",{"children":[["$","meta",null,{"name":"robots","content":"noindex"}],["$","$L7",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1, maximum-scale=5"}]]}],["$","div",null,{"hidden":true,"children":["$","$L8",null,{"children":["$","$3",null,{"name":"Next.Metadata","children":[]}]}]}],null]}],"isPartial":"$@9","staleTime":"$6","varyParams":null},{"rsc":["$","$1","c",{"children":[null,["$","$La",null,{"parallelRouterKey":"children","template":["$","$Lb",null,{}]}]]}],"isPartial":"$@c","staleTime":"$6","varyParams":"$d"},{"rsc":["$","$1","c",{"children":[null,["$","html",null,{"lang":"ru","children":["$","body",null,{"children":["$","$La",null,{"parallelRouterKey":"children","template":["$","$Lb",null,{}],"notFound":[["$","main",null,{"className":"rebrand rebrand-error","children":["$","div",null,{"className":"wrap","children":[["$","a",null,{"href":"/KillDEZ/","aria-label":"KILL DEZ — на главную","children":["$","img",null,{"src":"/KillDEZ/images/brand/wordmark.webp","alt":"KILL DEZ","width":"2056","height":"765"}]}],["$","div",null,{"className":"error-number","aria-hidden":"true","children":["404",["$","span",null,{"children":"×"}]]}],["$","h1",null,{"children":"Страница не найдена"}],["$","p",null,{"children":"Проверьте адрес или перейдите на главную."}],["$","a",null,{"className":"btn btn-green","href":"/KillDEZ/","children":"KILL DEZ — на главную ↗"}]]}]}],[]]}]}]}]]}],"isPartial":"$@e","staleTime":"$6","varyParams":null}],"isUpgradeableISRFallback":false,"a":"$@f","rootVaryParams":null,"needsRuntimeRequest":"$@10"}
+4:null
+6:300
+10:true
+6:C
+f:0
+9:"$undefined"
+c:"$undefined"
+e:"$undefined"
+5:"$undefined"
