@@ -24,7 +24,10 @@ class GitHubPagesExportTests(unittest.TestCase):
 
     def test_custom_root_domain_needs_no_project_prefix(self):
         text = '<a href="/objects/"/><img src="images/photo.jpg"/>'
-        self.assertEqual(prefix_jsx(text, ''), text)
+        self.assertEqual(prefix_jsx(text, ''), '<a href="/objects/"/><img src="/images/photo.jpg"/>')
+
+    def test_custom_root_domain_normalizes_nested_directory_images(self):
+        self.assertEqual(prefix_jsx('<img src={"../images/photo.jpg"}/>', ''), '<img src={"/images/photo.jpg"}/>' )
 
     def test_template_image_urls_keep_their_dynamic_part(self):
         self.assertEqual(prefix_jsx('src={`/images/brand/guide-${phase}.svg`}', '/KillDEZ'), 'src={`/KillDEZ/images/brand/guide-${phase}.svg`}')

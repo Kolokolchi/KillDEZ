@@ -18,13 +18,14 @@ def content_path(route):
 
 
 def prefix_jsx(source, base_path):
+    # Directory URLs need root-relative assets even on a custom domain.
+    source = re.sub(r'''((?:src|href)=\{?["'])((?:\.\./)*(?:images|css)/[^"']+)(["'])''',
+                    lambda m: m[1] + base_path + '/' + re.sub(r'^(?:\.\./)+', '', m[2]) + m[3], source)
     if not base_path:
         return source
     # Public URLs, not imports or the route resolver, receive the project prefix.
     source = re.sub(r'''(["'`])(/(?:images|css|objects|services|instructions)(?:/[^"'`]*|\#[^"'`]*|))\1''',
                     lambda m: m[1] + base_path + m[2] + m[1], source)
-    source = re.sub(r'''((?:src|href)=\{?["'])((?:\.\./)*(?:images|css)/[^"']+)(["'])''',
-                    lambda m: m[1] + base_path + '/' + re.sub(r'^(?:\.\./)+', '', m[2]) + m[3], source)
     source = re.sub(r'''(href=\{?["'])/(#[^"']*)?(["'])''',
                     lambda m: m[1] + base_path + '/' + (m[2] or '') + m[3], source)
     source = source.replace('link("/")', 'link(' + json.dumps(base_path + '/') + ')')
